@@ -1,0 +1,81 @@
+{
+  "journeyId": "find-doctor",
+  "title": "Find a Doctor",
+  "description": "Provider search, specialties, ratings",
+  "color": "purple",
+  "icon": "🧑‍⚕️",
+  "steps": [
+    {
+      "type": "gradient-card",
+      "color": "purple",
+      "title": "Find a Doctor",
+      "subtitle": "Search in-network providers",
+      "items": [
+        {
+          "id": "pcp",
+          "icon": "👤",
+          "label": "Primary Care"
+        },
+        {
+          "id": "cardio",
+          "icon": "❤️",
+          "label": "Cardiology"
+        },
+        {
+          "id": "derm",
+          "icon": "🌟",
+          "label": "Dermatology"
+        }
+      ]
+    },
+    {
+      "type": "glass-card",
+      "title": "Top Rated Doctors",
+      "badge": "IN-NETWORK",
+      "items": [
+        {
+          "id": "dr1",
+          "label": "Dr. Sarah Chen",
+          "rating": 4.9,
+          "reviews": 128,
+          "distance": "0.8 mi",
+          "available": "Today"
+        },
+        {
+          "id": "dr2",
+          "label": "Dr. Michael Park",
+          "rating": 4.8,
+          "reviews": 95,
+          "distance": "1.2 mi",
+          "available": "Tomorrow"
+        }
+      ]
+    },
+    {
+      "type": "gradient-card",
+      "color": "green",
+      "title": "Appointment Ready!",
+      "icon": "✓",
+      "successMessage": "Dr. Sarah Chen has availability today at 2:30 PM",
+      "infoBox": "Your copay: $20 (in-network)"
+    }
+  ],
+  "actions": [
+    [],
+    [
+      {
+        "label": "Book appointment",
+        "icon": "📅",
+        "nextStep": 2
+      }
+    ],
+    [
+      {
+        "label": "Search again",
+        "icon": "🔍",
+        "nextStep": 0,
+        "variant": "outline"
+      }
+    ]
+  ]
+}

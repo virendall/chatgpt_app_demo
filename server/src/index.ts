@@ -1,166 +1,116 @@
+// src/index.ts
 import { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js'
 import { StreamableHTTPServerTransport } from '@modelcontextprotocol/sdk/server/streamableHttp.js'
-import express, { Request, Response } from 'express'
-import { z } from 'zod'
-import { readFileSync } from "fs"
-import { join } from 'path'
+import express, { Request, Response, NextFunction } from 'express'
+import { readFileSync } from 'fs'
+import { join, dirname } from 'path'
 import { fileURLToPath } from 'url'
-import { dirname } from 'path'
-import { error } from 'console'
+
+import { registerAllTools } from './tools/index.js'
+import { registerAllResources, type HtmlResources } from './resources/index.js'
+import { serverLogger, httpLogger } from './utils/logger.js'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = dirname(__filename)
 
 const PORT = 3000
 
-const VERSION = "1.0.0"
-const BASE_RESOURCE_URI = "ui://widget/pokemon-board.html"
-const RESOURCE_URL = `${BASE_RESOURCE_URI}?version=${VERSION}`
+// Load HTML files for each page
+const HTML_BASE_PATH = join(__dirname, '..', '..', 'web/dist')
 
-const RESOURCE_MIME_TYPE = "text/html+skybridge"
+function loadHtmlResources(): HtmlResources {
+    serverLogger.info('Loading HTML resources from:', HTML_BASE_PATH)
 
-const HTML_PATH = join(__dirname, "..", "..", "web/dist/index.html")
-const HTML = readFileSync(HTML_PATH, "utf8")
+    const resources = {
+        claims: readFileSync(join(HTML_BASE_PATH, 'claims.html'), 'utf8'),
+        findDoctor: readFileSync(join(HTML_BASE_PATH, 'find-doctor.html'), 'utf8'),
+        planBenefits: readFileSync(join(HTML_BASE_PATH, 'plan-benefits.html'), 'utf8'),
+        prescriptions: readFileSync(join(HTML_BASE_PATH, 'prescriptions.html'), 'utf8'),
+    }
 
+    serverLogger.info('Loaded HTML resources:', Object.keys(resources))
+    return resources
+}
 
-/****************************/
-/******** MCP Server ********/
-/****************************/
+/***************************
+ ******** MCP Server ********
+ ***************************/
+serverLogger.info('Initializing MCP Server...')
 
-const server = new McpServer({
-    name: 'pokemon-server',
-    version: '1.0.0',
-}, {
-    capabilities: {},
-})
-
-
-export const StructuredOutput = z.object({
-    name: z.string({ description: "Pokemon name." }),
-    id: z.number({ description: "Pokemon index id." }).int(),
-    height: z.number({ description: "Pokemon height." }).int(),
-    weight: z.number({ description: "Pokemon weight." }).int(),
-    types: z.array(
-        z.object({
-            slot: z.number().int(),
-            type: z.object({
-                name: z.string({ description: "type name." }),
-                url: z.string({ description: "URL to get type detail." }).url(),
-            })
-        })
-    )
-})
-type StructuredOutput = z.infer<typeof StructuredOutput>;
-
-
-export const OutputMeta = z.object({
-    sprites: z.object({
-        back_default: z.string({ description: "URL to get type back_default image." }).url().nullable(),
-        back_female: z.string({ description: "URL to get type back_female image." }).url().nullable(),
-        back_shiny: z.string({ description: "URL to get type back_shiny image." }).url().nullable(),
-        back_shiny_female: z.string({ description: "URL to get type back_shiny_female image." }).url().nullable(),
-        front_default: z.string({ description: "URL to get type front_default image." }).url().nullable(),
-        front_female: z.string({ description: "URL to get type front_female image." }).url().nullable(),
-        front_shiny: z.string({ description: "URL to get type front_shiny image." }).url().nullable(),
-        front_shiny_female: z.string({ description: "URL to get type front_shiny_female image." }).url().nullable(),
-    }, { description: "URLs to get pokmeon images." })
-})
-type OutputMeta = z.infer<typeof OutputMeta>;
-
-
-
-// Add list pokemons tool
-server.registerTool(
-    'get_pokemon',
+const server = new McpServer(
     {
-        title: 'Get Pokemon',
-        description: 'Get detail infomation of a pokemon.',
-        _meta: {
-            "openai/outputTemplate": RESOURCE_URL,
-            "openai/toolInvocation/invoking": "Invoking...",
-            "openai/toolInvocation/invoked": "Invoked!",
-            // Allow component-initiated tool access: https://developers.openai.com/apps-sdk/build/mcp-server#%23%23allow-component-initiated-tool-access
-            "openai/widgetAccessible": true
-        },
-        inputSchema: { name: z.string({ description: "The name of the pokemon to get detail for." }).nonempty() },
-        outputSchema: {
-            result: StructuredOutput
-        }
+        name: 'healthcare-server',
+        version: '1.0.0',
     },
-    async ({ name }) => {
-        if (name.length == 0) {
-            throw new Error("Pokemon name cannot be empty.")
-        }
-        const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${name}`)
-
-        if (!response.ok) {
-            throw new Error(`HTTP error. status: ${response.status}`)
-        }
-
-        const json = await response.json()
-        const structuredOutput: StructuredOutput = StructuredOutput.parse(json)
-        const structuredContent = {
-            result: structuredOutput
-        }
-        const meta: OutputMeta = OutputMeta.parse(json)
-        return {
-            content: [
-                { type: 'text', text: JSON.stringify(structuredContent) },
-            ],
-            structuredContent: structuredContent,
-            // The _meta property/parameter is reserved by MCP to allow clients and servers to attach additional metadata to their interactions.
-            // This allows us to define Arbitrary JSON passed only to the component.
-            // Use it for data that should not influence the model’s reasoning, like the full set of locations that backs a dropdown.
-            // // _meta is never shown to the model.
-            _meta: meta
-        }
+    {
+        capabilities: {
+            resources: {},
+            tools: {},
+        },
     }
 )
 
+// Register all tools (claims, doctors, plan-benefits, prescriptions)
+serverLogger.info('Registering tools...')
+registerAllTools(server)
 
-// UI resource (no inline data assignment; host will inject data)
-server.registerResource(
-    "pokemon-widget",
-    RESOURCE_URL,
-    {},
-    async () => ({
-        contents: [
-            {
-                uri: RESOURCE_URL,
-                mimeType: RESOURCE_MIME_TYPE,
-                text: HTML,
-            },
-        ],
-    })
-)
+// Register all resources (HTML widgets for each page)
+serverLogger.info('Registering resources...')
+const htmlResources = loadHtmlResources()
+registerAllResources(server, htmlResources)
 
-
-/********************************/
-/******** Express Server ********/
-/********************************/
-
-
-// Set up Express and HTTP transport
+/***************************
+ ****** Express Server *****
+ ***************************/
 const app = express()
 app.use(express.json())
 
-app.post('/mcp', async (req: Request, res: Response) => {
-    // Create a new transport for each request to prevent request ID collisions
+// CORS middleware for local development
+app.use((req: Request, res: Response, next: NextFunction) => {
+    res.header('Access-Control-Allow-Origin', '*')
+    res.header('Access-Control-Allow-Methods', 'GET, POST, OPTIONS')
+    res.header('Access-Control-Allow-Headers', 'Content-Type, Accept')
 
+    if (req.method === 'OPTIONS') {
+        res.sendStatus(200)
+        return
+    }
+    next()
+})
+
+// Request logging middleware
+app.use((req: Request, res: Response, next: NextFunction) => {
+    const startTime = Date.now()
+
+    httpLogger.request(
+        req.method,
+        req.path,
+        req.body?.method
+            ? {
+                jsonrpc: req.body.jsonrpc,
+                method: req.body.method,
+                id: req.body.id,
+                params: req.body.params,
+            }
+            : undefined
+    )
+
+    res.on('finish', () => {
+        const duration = Date.now() - startTime
+        httpLogger.response(res.statusCode, duration)
+    })
+
+    next()
+})
+
+app.post('/mcp', async (req: Request, res: Response) => {
     const transport = new StreamableHTTPServerTransport({
-        // stateless mode
-        // for stateful mode:
-        // (https://levelup.gitconnected.com/mcp-server-and-client-with-sse-the-new-streamable-http-d860850d9d9d)
-        // 1. use sessionIdGenerator: () => randomUUID()
-        // 2. save the generated ID: const sessionId = transport.sessionId and the corresponding transport
-        // 3. try retrieve the session id with req.header["mcp-session-id"] for incoming request
-        // 4. If session id is defined and there is an existing transport, use the transport instead of creating a new one.
         sessionIdGenerator: undefined,
-        // to use Streamable HTTP instead of SSE
-        enableJsonResponse: true
+        enableJsonResponse: true,
     })
 
     res.on('close', () => {
+        httpLogger.debug('Connection closed')
         transport.close()
     })
 
@@ -168,10 +118,18 @@ app.post('/mcp', async (req: Request, res: Response) => {
     await transport.handleRequest(req, res, req.body)
 })
 
+// Health check endpoint
+app.get('/health', (req: Request, res: Response) => {
+    res.json({ status: 'ok', server: 'healthcare-server', version: '1.0.0' })
+})
 
 app.listen(PORT, () => {
-    console.log(`Pokemon MCP Server running on http://localhost:${PORT}/mcp`)
-}).on('error', error => {
-    console.error('Server error:', error)
+    serverLogger.info('='.repeat(50))
+    serverLogger.info('Healthcare MCP Server started')
+    serverLogger.info(`Listening on: http://localhost:${PORT}/mcp`)
+    serverLogger.info(`Health check: http://localhost:${PORT}/health`)
+    serverLogger.info('='.repeat(50))
+}).on('error', (error) => {
+    serverLogger.error('Server error:', error)
     process.exit(1)
 })

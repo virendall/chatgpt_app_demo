@@ -1,0 +1,79 @@
+{
+  "journeyId": "prescriptions",
+  "title": "Prescriptions",
+  "description": "Rx costs, refills, savings",
+  "color": "sunset",
+  "icon": "💊",
+  "steps": [
+    {
+      "type": "gradient-card",
+      "color": "sunset",
+      "title": "Your Prescriptions",
+      "subtitle": "Manage refills and savings",
+      "stats": [
+        {
+          "icon": "💊",
+          "label": "Active Rx",
+          "value": "3"
+        },
+        {
+          "icon": "💰",
+          "label": "Monthly",
+          "value": "$30"
+        }
+      ]
+    },
+    {
+      "type": "glass-card",
+      "title": "Active Prescriptions",
+      "items": [
+        {
+          "id": "rx1",
+          "label": "Lisinopril 10mg",
+          "refills": 3,
+          "cost": "$10",
+          "nextRefill": "Jan 28"
+        },
+        {
+          "id": "rx2",
+          "label": "Metformin 500mg",
+          "refills": 5,
+          "cost": "$10",
+          "nextRefill": "Feb 5"
+        }
+      ]
+    },
+    {
+      "type": "gradient-card",
+      "color": "green",
+      "title": "Refill Requested!",
+      "icon": "✓",
+      "successMessage": "Ready for pickup at CVS Pharmacy tomorrow at 10 AM",
+      "infoBox": "Your cost: $10.00"
+    }
+  ],
+  "actions": [
+    [
+      {
+        "label": "View prescriptions",
+        "icon": "💊",
+        "nextStep": 1
+      }
+    ],
+    [
+      {
+        "label": "View all Rx",
+        "icon": "📋",
+        "nextStep": 1
+      }
+    ],
+    [
+      {
+        "label": "Request refill",
+        "icon": "↻",
+        "nextStep": 2,
+        "variant": "outline"
+      }
+    ]
+  ]
+}
