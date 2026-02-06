@@ -10,7 +10,7 @@ import { toolLogger } from '../utils/logger.js'
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = dirname(__filename)
 
-const VERSION = '1.0.0'
+const VERSION = '1.1.0'
 export const CLAIMS_RESOURCE_URL = `ui://widget/claims.html?version=${VERSION}`
 
 function getMockData(): JourneyData {

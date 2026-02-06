@@ -19,7 +19,7 @@
         {
           "icon": "💰",
           "label": "Monthly",
-          "value": "$30"
+          "value": "$90"
         }
       ]
     },
@@ -30,14 +30,14 @@
         {
           "id": "rx1",
           "label": "Lisinopril 10mg",
-          "refills": 3,
+          "refills": 10,
           "cost": "$10",
           "nextRefill": "Jan 28"
         },
         {
           "id": "rx2",
           "label": "Metformin 500mg",
-          "refills": 5,
+          "refills": 10,
           "cost": "$10",
           "nextRefill": "Feb 5"
         }

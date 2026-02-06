@@ -1,13 +1,12 @@
-// DevToolbar.tsx
-import { useState } from 'react'
+import {useState} from 'react'
 import {
-    isDev,
     getAvailableTools,
-    simulateToolCall,
-    setSimulatedToolOutput,
+    isDev,
     JOURNEY_TO_TOOL,
+    setSimulatedToolOutput,
+    simulateToolCall,
 } from '../helpers/dev-simulator'
-import type { JourneyId } from '../types/journey.types'
+import type {JourneyId} from '../types/journey.types'
 
 export function DevToolbar() {
     const [isOpen, setIsOpen] = useState(false)
@@ -15,6 +14,7 @@ export function DevToolbar() {
     const [useMockData, setUseMockData] = useState(true)
     const [lastResult, setLastResult] = useState<string | null>(null)
 
+    //
     if (!isDev) return null
 
     const tools = getAvailableTools()
@@ -24,7 +24,7 @@ export function DevToolbar() {
         setLastResult(null)
 
         try {
-            const result = await simulateToolCall(toolName, {}, { useMockData })
+            const result = await simulateToolCall(toolName, {}, {useMockData})
 
             if (result) {
                 setSimulatedToolOutput(result, {
@@ -46,13 +46,13 @@ export function DevToolbar() {
     const handleClear = () => {
         setSimulatedToolOutput(null)
         setLastResult('🧹 Tool output cleared')
-    }
+    };
 
     const handleNavigateAndLoad = async (journeyId: JourneyId) => {
         const toolName = JOURNEY_TO_TOOL[journeyId]
         await handleToolCall(toolName)
         window.location.hash = `#/${journeyId}`
-    }
+    };
 
     if (!isOpen) {
         return (
@@ -103,7 +103,7 @@ export function DevToolbar() {
                     borderBottom: '1px solid #333',
                 }}
             >
-        <span style={{ fontWeight: 'bold', color: '#00d4ff' }}>
+        <span style={{fontWeight: 'bold', color: '#00d4ff'}}>
           🧪 MCP Dev Simulator
         </span>
                 <button
@@ -120,7 +120,7 @@ export function DevToolbar() {
                 </button>
             </div>
 
-            <div style={{ padding: '12px 16px', borderBottom: '1px solid #333' }}>
+            <div style={{padding: '12px 16px', borderBottom: '1px solid #333'}}>
                 <label
                     style={{
                         display: 'flex',
@@ -135,19 +135,19 @@ export function DevToolbar() {
                         onChange={(e) => setUseMockData(e.target.checked)}
                     />
                     <span>Use Mock Data</span>
-                    <span style={{ color: '#888', fontSize: '11px' }}>
+                    <span style={{color: '#888', fontSize: '11px'}}>
             ({useMockData ? 'local JSON' : 'MCP server'})
           </span>
                 </label>
             </div>
 
-            <div style={{ padding: '12px 16px' }}>
-                <div style={{ marginBottom: '8px', color: '#888', fontSize: '11px' }}>
+            <div style={{padding: '12px 16px'}}>
+                <div style={{marginBottom: '8px', color: '#888', fontSize: '11px'}}>
                     Call MCP Tools:
                 </div>
 
-                <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
-                    {tools.map(({ tool, journey }) => (
+                <div style={{display: 'flex', flexDirection: 'column', gap: '6px'}}>
+                    {tools.map(({tool, journey}) => (
                         <button
                             key={tool}
                             onClick={() =>
@@ -168,7 +168,7 @@ export function DevToolbar() {
                             }}
                         >
                             <span>{tool}</span>
-                            <span style={{ color: '#888', fontSize: '11px' }}>
+                            <span style={{color: '#888', fontSize: '11px'}}>
                 /{journey}
               </span>
                         </button>
@@ -176,7 +176,7 @@ export function DevToolbar() {
                 </div>
             </div>
 
-            <div style={{ padding: '0 16px 12px', display: 'flex', gap: '8px' }}>
+            <div style={{padding: '0 16px 12px', display: 'flex', gap: '8px'}}>
                 <button
                     onClick={handleClear}
                     style={{
@@ -233,7 +233,7 @@ export function DevToolbar() {
                 }}
             >
                 💡 Also try in console:{' '}
-                <code style={{ color: '#00d4ff' }}>
+                <code style={{color: '#00d4ff'}}>
                     devSimulator.callTool('get_claims')
                 </code>
             </div>

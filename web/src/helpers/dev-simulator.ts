@@ -37,6 +37,7 @@ export async function simulateToolCall(
     args: Record<string, unknown> = {},
     options: { useMockData?: boolean } = {}
 ): Promise<{ journey: JourneyData } | null> {
+    debugger;
     const {useMockData = true} = options;
 
     const journeyId = TOOL_TO_JOURNEY[toolName];
@@ -119,7 +120,7 @@ export function setSimulatedToolOutput(
  * Creates a mock window.openai object with simulated APIs
  */
 export function initDevSimulator() {
-    if ((window.openai as any)?.callTool) {
+    if (window.openai?.callTool) {
         console.log('Using existing window.openai (embedded simulation or ChatGPT)');
         exposeDevSimulatorHelpers();
         return;

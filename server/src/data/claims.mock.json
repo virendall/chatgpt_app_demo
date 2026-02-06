@@ -14,7 +14,7 @@
         {
           "icon": "✓",
           "label": "Paid",
-          "value": "12"
+          "value": "120"
         },
         {
           "icon": "⏳",
@@ -29,6 +29,7 @@
       "items": [
         {
           "id": "C1",
+          "label": "City Medical",
           "provider": "City Medical",
           "date": "Jan 15",
           "amount": "$450",
@@ -37,6 +38,7 @@
         },
         {
           "id": "C2",
+          "label": "Quest Diagnostics",
           "provider": "Quest Diagnostics",
           "date": "Jan 10",
           "amount": "$180",

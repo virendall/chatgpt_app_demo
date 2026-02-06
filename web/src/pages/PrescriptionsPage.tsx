@@ -6,7 +6,6 @@ import { JourneyRenderer } from '../components/JourneyRenderer';
 
 export function PrescriptionsPage() {
     const journeyData = useJourneyData(JOURNEY_IDS.PRESCRIPTIONS);
-
     if (!journeyData) {
         return (
             <div className="min-h-screen bg-slate-50 p-6 flex items-center justify-center">
