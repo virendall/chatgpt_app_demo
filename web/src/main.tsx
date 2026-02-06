@@ -16,7 +16,7 @@ declare global {
 
 createRoot(document.getElementById('container')!).render(
     <StrictMode>
-        <AppsSDKUIProvider LinkComponent={Link}>
+        <AppsSDKUIProvider linkComponent={Link}>
             <App />
         </AppsSDKUIProvider>
     </StrictMode>

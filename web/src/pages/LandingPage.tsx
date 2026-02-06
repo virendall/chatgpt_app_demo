@@ -5,7 +5,6 @@ import {
     Health,
 } from '@openai/apps-sdk-ui/components/Icon';
 import { JourneyCard } from '../components/JourneyCard';
-import { journeyList } from '../data';
 import { COLORS } from '../constants/colors';
 
 const journeyIcons: Record<string, React.ReactNode> = {

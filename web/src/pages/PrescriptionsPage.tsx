@@ -3,15 +3,12 @@ import { JOURNEY_IDS } from '../types/journey.types';
 import { Link } from 'react-router-dom';
 import { ArrowLeft } from '@openai/apps-sdk-ui/components/Icon';
 import { JourneyRenderer } from '../components/JourneyRenderer';
+import { LoadingSpinner } from '../components/LoadingSpinner';
 
 export function PrescriptionsPage() {
     const journeyData = useJourneyData(JOURNEY_IDS.PRESCRIPTIONS);
     if (!journeyData) {
-        return (
-            <div className="min-h-screen bg-slate-50 p-6 flex items-center justify-center">
-                <p className="text-slate-600">Loading...</p>
-            </div>
-        );
+        return <LoadingSpinner />;
     }
 
     return (

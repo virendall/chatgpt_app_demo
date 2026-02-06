@@ -1,6 +1,6 @@
-import {useOpenAiGlobal} from '../helpers/use-openai-global';
-import {mockJourneyData} from '../data';
-import type {JourneyData, JourneyId} from '../types/journey.types';
+import { useOpenAiGlobal } from '../helpers/use-openai-global';
+import { useToolOutput } from '../helpers/use-tool-output';
+import type { JourneyData, JourneyId } from '../types/journey.types';
 
 /**
  * Hook to get journey data from OpenAI or fallback to mock data
@@ -8,25 +8,26 @@ import type {JourneyData, JourneyId} from '../types/journey.types';
  * @returns Journey data object
  */
 export function useJourneyData(journeyId: JourneyId): JourneyData | null {
-    // Try to get data from OpenAI first
-    const toolOutput = useOpenAiGlobal('toolOutput');
-    const toolMeta = useOpenAiGlobal('toolResponseMetadata');
+    // Primary: Try to get data from window.openai.toolOutput (set by ChatGPT's app iframe)
+    const globalToolOutput = useOpenAiGlobal('toolOutput');
 
-    // Check if OpenAI provided journey data matching this journeyId
-    if (toolOutput && toolMeta) {
-        try {
-            // If the OpenAI response has journey data for this journey, use it
-            const openAiData = toolOutput as unknown as { journey?: JourneyData };
-            if (openAiData?.journey?.journeyId === journeyId) {
-                return openAiData.journey;
-            }
-        } catch {
-            // Fall through to mock data
+    // Fallback: Try postMessage-based tool output (for development/testing)
+    const postMessageData = useToolOutput();
+
+    // Check global toolOutput first (primary source from OpenAI ChatGPT app)
+    if (globalToolOutput) {
+        const output = globalToolOutput as { journey?: { journeyId?: string } };
+        if (output?.journey?.journeyId === journeyId) {
+            return output.journey as unknown as JourneyData;
         }
     }
 
-    // Fallback to mock data for local development
-    return mockJourneyData[journeyId] ?? null;
+    // Fallback to postMessage-based data (for local development)
+    if (postMessageData?.journey?.journeyId === journeyId) {
+        return postMessageData.journey as unknown as JourneyData;
+    }
+
+    return null;
 }
 
 /**

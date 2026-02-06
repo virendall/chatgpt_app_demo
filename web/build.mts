@@ -108,6 +108,7 @@ const createConfig = (): InlineConfig => ({
             },
         },
     ],
+    root: process.cwd(),
     esbuild: {
         jsx: "automatic",
         jsxImportSource: "react",

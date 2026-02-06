@@ -9,7 +9,8 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  cacheDir: "node_modules/.vite-react",
+  root: 'src',
+  cacheDir: "../node_modules/.vite-react",
   server: {
     port: 4444,
     strictPort: true,
@@ -20,4 +21,8 @@ export default defineConfig({
     jsxImportSource: "react",
     target: "es2022",
   },
+  build: {
+    outDir: '../dist',
+    emptyOutDir: true,
+  }
 })

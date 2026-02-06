@@ -3,16 +3,13 @@ import { ArrowLeft } from '@openai/apps-sdk-ui/components/Icon';
 import { JourneyRenderer } from '../components/JourneyRenderer';
 import { useJourneyData } from '../hooks/useJourneyData';
 import { JOURNEY_IDS } from '../types/journey.types';
+import { LoadingSpinner } from '../components/LoadingSpinner';
 
 export function ClaimsPage() {
     const journeyData = useJourneyData(JOURNEY_IDS.CLAIMS);
 
     if (!journeyData) {
-        return (
-            <div className="min-h-screen bg-slate-50 p-6 flex items-center justify-center">
-                <p className="text-slate-600">Loading...</p>
-            </div>
-        );
+        return <LoadingSpinner />;
     }
 
     return (
