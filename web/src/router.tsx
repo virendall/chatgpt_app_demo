@@ -3,6 +3,7 @@ import {
     LandingPage,
     PlanBenefitsPage,
     FindDoctorPage,
+    DoctorSearchPage,
     ClaimsPage,
     PrescriptionsPage,
 } from './pages';
@@ -39,6 +40,10 @@ export const router = createHashRouter([
     {
         path: '/find-doctor',
         element: <FindDoctorPage />,
+    },
+    {
+        path: '/doctor-search',
+        element: <DoctorSearchPage />,
     },
     {
         path: '/claims',

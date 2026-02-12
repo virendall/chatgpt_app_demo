@@ -41,6 +41,7 @@ export const ListItemSchema = z.object({
     amount: z.string({ description: 'Amount display string' }).optional(),
     yourCost: z.string({ description: 'Patient cost display string' }).optional(),
     provider: z.string({ description: 'Provider name' }).optional(),
+    imageUrl: z.string({ description: 'Image URL for profile thumbnail' }).optional(),
 })
 export type ListItem = z.infer<typeof ListItemSchema>
 
@@ -99,6 +100,7 @@ export type JourneyData = z.infer<typeof JourneyDataSchema>
 export const JOURNEY_IDS = {
     PLAN_BENEFITS: 'plan-benefits',
     FIND_DOCTOR: 'find-doctor',
+    DOCTOR_SEARCH: 'doctor-search',
     CLAIMS: 'claims',
     PRESCRIPTIONS: 'prescriptions',
 } as const

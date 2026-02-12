@@ -14,6 +14,7 @@ const outDir = "dist"
 const PAGES = [
     { name: "claims", route: "/claims" },
     { name: "find-doctor", route: "/find-doctor" },
+    { name: "doctor-search", route: "/doctor-search" },
     { name: "plan-benefits", route: "/plan-benefits" },
     { name: "prescriptions", route: "/prescriptions" },
 ]

@@ -23,7 +23,8 @@ function loadHtmlResources(): HtmlResources {
 
     const resources = {
         claims: readFileSync(join(HTML_BASE_PATH, 'claims.html'), 'utf8'),
-        findDoctor: readFileSync(join(HTML_BASE_PATH, 'find-doctor.html'), 'utf8'),
+        // findDoctor: readFileSync(join(HTML_BASE_PATH, 'find-doctor.html'), 'utf8'),
+        doctorSearch: readFileSync(join(HTML_BASE_PATH, 'doctor-search.html'), 'utf8'),
         planBenefits: readFileSync(join(HTML_BASE_PATH, 'plan-benefits.html'), 'utf8'),
         prescriptions: readFileSync(join(HTML_BASE_PATH, 'prescriptions.html'), 'utf8'),
     }

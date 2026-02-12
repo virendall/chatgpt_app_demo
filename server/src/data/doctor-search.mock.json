@@ -1,0 +1,4298 @@
+{
+  "searchResult": {
+    "providerGroups": [
+      {
+        "typecode": "D",
+        "typeDescription": "Dentists",
+        "searchContextCode": "HSX001",
+        "searchContextDesc": "Search context configuration",
+        "sortCode": "HDS14",
+        "sortOrder": "asc",
+        "totalSearchCount": "83",
+        "searchRadius": 2,
+        "allowedMaxRadius": 100,
+        "providers": [
+          {
+            "complianceMessages": [],
+            "name": "Ronald Schwalb, DDS",
+            "firstName": "Ronald",
+            "lastName": "Schwalb",
+            "typeCode": "D",
+            "typeDescription": "Dental",
+            "groupCode": "D",
+            "groupDescription": "Dentists",
+            "providerId": "0049975",
+            "age": "64",
+            "emailAddress": "billing@diamondbraces.com",
+            "schools": [
+              {
+                "name": "New York University",
+                "graduationYear": "1988"
+              }
+            ],
+            "languages": [
+              {
+                "code": "CA",
+                "description": "Cantonese"
+              },
+              {
+                "code": "CH",
+                "description": "Chinese"
+              },
+              {
+                "code": "FR",
+                "description": "French"
+              },
+              {
+                "code": "JA",
+                "description": "Japanese"
+              },
+              {
+                "code": "PO",
+                "description": "Polish"
+              },
+              {
+                "code": "RU",
+                "description": "Russian"
+              },
+              {
+                "code": "SP",
+                "description": "Spanish"
+              }
+            ],
+            "brighterProfileImageThumbNailURL": "https://p-practice-media-static.digitaledge.cigna.com/provider_284083_ronaldschwalb_portal_EnhA_medium.png",
+            "nationalProviderIds": [
+              "1952447641"
+            ],
+            "displayNationalProviderId": "1952447641",
+            "degrees": [
+              "DDS"
+            ],
+            "locationCount": "11",
+            "locations": [
+              {
+                "reportInacurraciesIndicator": "Y",
+                "tpvAffiliationIndicator": "N",
+                "locationId": "679925",
+                "streetName": "97 E 4th St",
+                "city": "New York",
+                "zipCode": "10003",
+                "stateCode": "NY",
+                "geoCode": {
+                  "latitude": "40.726056",
+                  "longitude": "-73.988739"
+                },
+                "latitude": "40.726056",
+                "longitude": "-73.988739",
+                "locationDistance": "1.3",
+                "facilityName": "Washington Heights Orthodontic",
+                "facilityId": "679925",
+                "acceptingNewPatientIndicator": "Y",
+                "phones": [
+                  "(212) 292-3848"
+                ],
+                "rawPhones": [
+                  "2122923848"
+                ],
+                "dailyOfficeHours": {
+                  "openHours": [
+                    {
+                      "dayOfTheWeek": "Mon",
+                      "open": "11:00 AM",
+                      "close": "7:00 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Tue",
+                      "open": "10:00 AM",
+                      "close": "6:00 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Wed",
+                      "open": "10:00 AM",
+                      "close": "6:00 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Thu",
+                      "open": "11:00 AM",
+                      "close": "7:00 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Fri",
+                      "open": "9:00 AM",
+                      "close": "5:00 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Sat",
+                      "open": "9:00 AM",
+                      "close": "4:00 PM"
+                    }
+                  ]
+                },
+                "providerLocationId": "679925",
+                "county": "New York",
+                "specialties": [
+                  {
+                    "code": "OR",
+                    "description": "Orthodontics"
+                  }
+                ],
+                "contractEffectiveDate": "12/31/9999",
+                "contractExpirationDate": "12/31/9999",
+                "brighterMatch": {
+                  "associations": [
+                    "American Dental Association",
+                    "Amercan Association of Orthodontics",
+                    "First District Dental Society",
+                    "American Orthodontic Association"
+                  ],
+                  "education": [
+                    {
+                      "institution": "New York University ",
+                      "degreeType": "DDS",
+                      "year": "1988"
+                    }
+                  ],
+                  "otherSurveys": {
+                    "surveyScore": {
+                      "no": "1",
+                      "total": "5",
+                      "yes": "4"
+                    }
+                  },
+                  "galleryPhotos": [
+                    "https://p-practice-media-static.digitaledge.cigna.com/practice_pkhcjrmh41416175__portal_nybn.jpg",
+                    "https://p-practice-media-static.digitaledge.cigna.com/practice_pkhcjrmh41416175__portal_prnw.jpg",
+                    "https://p-practice-media-static.digitaledge.cigna.com/practice_pkhcjrmh41416175__portal_xovr.jpg"
+                  ],
+                  "providerSurveys": {
+                    "surveyScore": {
+                      "no": "1",
+                      "total": "60",
+                      "yes": "59"
+                    }
+                  },
+                  "licenseInfo": [
+                    {
+                      "number": "041817",
+                      "action": "false",
+                      "state": "NY",
+                      "type": "DENTISTRY",
+                      "status": "ACTIVE"
+                    }
+                  ],
+                  "brighterOverallScore": {
+                    "score": "9.6"
+                  },
+                  "brighterAffordabilityScore": {
+                    "score": "9.3",
+                    "description": "Great Prices"
+                  },
+                  "brighterProfessionalHistoryScore": {
+                    "score": "10.0",
+                    "description": "37 years"
+                  },
+                  "brighterPatientExperienceScore": {
+                    "score": "9.7",
+                    "description": "65 Reviews"
+                  },
+                  "providerExperienceStartDate": "1988-10-03"
+                },
+                "brighterScore": {
+                  "patientExperienceScoreDesc": "65 Reviews"
+                },
+                "pharmacy90DayCoverageIndicator": false,
+                "weekendOpenIndicator": "Y",
+                "reportInaccuraciesMessageCode": "NYD0001",
+                "acceptingNewPatientCode": "Y",
+                "contractId": [
+                  "H7849150000"
+                ],
+                "hvpdIndicator": "N",
+                "formattedAddressDetails": "97 E 4th St, New York, NY, 10003",
+                "formattedAddressResults": "97 E 4th St New York, NY 10003",
+                "adaAccessibleIndicator": "Y",
+                "networkName": "ADVANTAGE",
+                "networkTierCode": "1",
+                "ngdDetails": [
+                  {
+                    "providerDentalOfficeID": "679925",
+                    "providerDentalOfficeName": "Washington Heights Orthodontic",
+                    "allowNgdSelectionForCurrentCustomers": false,
+                    "acceptingNewPatientIndicator": "Y",
+                    "allowNgdSelectionIndicator": false
+                  }
+                ],
+                "allowNgdSelectionIndicator": false,
+                "participatingProducts": []
+              }
+            ],
+            "specialties": [
+              {
+                "code": "OR",
+                "description": "Orthodontics",
+                "boardCertificationFlag": "N"
+              }
+            ],
+            "geoCodesAvailableIndicator": true,
+            "genderCode": "M",
+            "yearsOfExperience": "38"
+          },
+          {
+            "complianceMessages": [],
+            "name": "Oleg Drut, DDS",
+            "firstName": "Oleg",
+            "lastName": "Drut",
+            "typeCode": "D",
+            "typeDescription": "Dental",
+            "groupCode": "D",
+            "groupDescription": "Dentists",
+            "providerId": "0080041",
+            "age": "55",
+            "emailAddress": "billing@diamondbraces.com",
+            "schools": [
+              {
+                "name": "New York College",
+                "graduationYear": "1997"
+              }
+            ],
+            "languages": [
+              {
+                "code": "CH",
+                "description": "Chinese"
+              },
+              {
+                "code": "HE",
+                "description": "Hebrew"
+              },
+              {
+                "code": "PO",
+                "description": "Polish"
+              },
+              {
+                "code": "RU",
+                "description": "Russian"
+              },
+              {
+                "code": "SP",
+                "description": "Spanish"
+              }
+            ],
+            "brighterProfileImageThumbNailURL": "https://p-practice-media-static.digitaledge.cigna.com/dentist_258813_olegdrut_Rpda_medium.jpg",
+            "nationalProviderIds": [
+              "1619987757"
+            ],
+            "displayNationalProviderId": "1619987757",
+            "degrees": [
+              "DDS"
+            ],
+            "locationCount": "51",
+            "locations": [
+              {
+                "reportInacurraciesIndicator": "Y",
+                "tpvAffiliationIndicator": "N",
+                "locationId": "679925",
+                "streetName": "97 E 4th St",
+                "city": "New York",
+                "zipCode": "10003",
+                "stateCode": "NY",
+                "geoCode": {
+                  "latitude": "40.726056",
+                  "longitude": "-73.988739"
+                },
+                "latitude": "40.726056",
+                "longitude": "-73.988739",
+                "locationDistance": "1.3",
+                "facilityName": "Washington Heights Orthodontic",
+                "facilityId": "679925",
+                "acceptingNewPatientIndicator": "Y",
+                "phones": [
+                  "(212) 292-3848"
+                ],
+                "rawPhones": [
+                  "2122923848"
+                ],
+                "dailyOfficeHours": {
+                  "openHours": [
+                    {
+                      "dayOfTheWeek": "Mon",
+                      "open": "11:00 AM",
+                      "close": "7:00 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Tue",
+                      "open": "10:00 AM",
+                      "close": "6:00 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Wed",
+                      "open": "10:00 AM",
+                      "close": "6:00 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Thu",
+                      "open": "11:00 AM",
+                      "close": "7:00 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Fri",
+                      "open": "9:00 AM",
+                      "close": "5:00 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Sat",
+                      "open": "9:00 AM",
+                      "close": "4:00 PM"
+                    }
+                  ]
+                },
+                "providerLocationId": "679925",
+                "county": "New York",
+                "specialties": [
+                  {
+                    "code": "OR",
+                    "description": "Orthodontics"
+                  }
+                ],
+                "contractEffectiveDate": "12/31/9999",
+                "contractExpirationDate": "12/31/9999",
+                "brighterMatch": {
+                  "associations": [
+                    "American Dental Association",
+                    "American Association of Orthodontics (AAO)",
+                    "Middle Atlantic Society for Orthodontics"
+                  ],
+                  "education": [
+                    {
+                      "institution": "New York University",
+                      "degreeType": "Residency",
+                      "year": "1999"
+                    },
+                    {
+                      "institution": "New York University",
+                      "degreeType": "DDS",
+                      "year": "1997"
+                    }
+                  ],
+                  "otherSurveys": {
+                    "surveyScore": {
+                      "no": "1",
+                      "total": "5",
+                      "yes": "4"
+                    }
+                  },
+                  "galleryPhotos": [
+                    "https://p-practice-media-static.digitaledge.cigna.com/practice_lrgpzwby85152784__portal_1353f29e-492c-4dc2-b64b-d8cf36d70e3c.png",
+                    "https://p-practice-media-static.digitaledge.cigna.com/practice_tiheszce86581223__portal_fihi.png",
+                    "https://p-practice-media-static.digitaledge.cigna.com/practice_tiheszce86581223__portal_qnzr.png"
+                  ],
+                  "providerSurveys": {
+                    "surveyScore": {
+                      "no": "6",
+                      "total": "41",
+                      "yes": "35"
+                    }
+                  },
+                  "licenseInfo": [
+                    {
+                      "number": "047218",
+                      "action": "false",
+                      "state": "NY",
+                      "type": "DENTISTRY",
+                      "status": "ACTIVE"
+                    },
+                    {
+                      "number": "22DI02070700",
+                      "action": "false",
+                      "state": "NJ",
+                      "type": "Dentist",
+                      "status": "ACTIVE"
+                    },
+                    {
+                      "number": "011275",
+                      "action": "false",
+                      "state": "CT",
+                      "type": "DENTIST",
+                      "status": "ACTIVE"
+                    },
+                    {
+                      "number": "DS043851",
+                      "action": "false",
+                      "state": "PA",
+                      "type": "DENTISTRY",
+                      "status": "ACTIVE"
+                    }
+                  ],
+                  "brighterOverallScore": {
+                    "score": "9.3"
+                  },
+                  "brighterAffordabilityScore": {
+                    "score": "9.3",
+                    "description": "Great Prices"
+                  },
+                  "brighterProfessionalHistoryScore": {
+                    "score": "10.0",
+                    "description": "28 years"
+                  },
+                  "brighterPatientExperienceScore": {
+                    "score": "8.5",
+                    "description": "46 Reviews"
+                  },
+                  "providerExperienceStartDate": "1997-07-01"
+                },
+                "brighterScore": {
+                  "patientExperienceScoreDesc": "46 Reviews"
+                },
+                "pharmacy90DayCoverageIndicator": false,
+                "weekendOpenIndicator": "Y",
+                "reportInaccuraciesMessageCode": "NYD0001",
+                "acceptingNewPatientCode": "Y",
+                "contractId": [
+                  "H7849150000"
+                ],
+                "hvpdIndicator": "N",
+                "formattedAddressDetails": "97 E 4th St, New York, NY, 10003",
+                "formattedAddressResults": "97 E 4th St New York, NY 10003",
+                "adaAccessibleIndicator": "Y",
+                "networkName": "ADVANTAGE",
+                "networkTierCode": "1",
+                "ngdDetails": [
+                  {
+                    "providerDentalOfficeID": "679925",
+                    "providerDentalOfficeName": "Washington Heights Orthodontic",
+                    "allowNgdSelectionForCurrentCustomers": false,
+                    "acceptingNewPatientIndicator": "Y",
+                    "allowNgdSelectionIndicator": false
+                  }
+                ],
+                "allowNgdSelectionIndicator": false,
+                "participatingProducts": []
+              }
+            ],
+            "specialties": [
+              {
+                "code": "OR",
+                "description": "Orthodontics",
+                "boardCertificationFlag": "N"
+              }
+            ],
+            "geoCodesAvailableIndicator": true,
+            "genderCode": "M",
+            "yearsOfExperience": "29"
+          },
+          {
+            "complianceMessages": [],
+            "name": "Ingrid Barillas, DDS",
+            "firstName": "Ingrid",
+            "lastName": "Barillas",
+            "typeCode": "D",
+            "typeDescription": "Dental",
+            "groupCode": "D",
+            "groupDescription": "Dentists",
+            "providerId": "0159195",
+            "emailAddress": "info@dumbosmiles.com",
+            "schools": [
+              {
+                "name": "Eastman Dental Ctr",
+                "graduationYear": "1994"
+              }
+            ],
+            "languages": [
+              {
+                "code": "SP",
+                "description": "Spanish"
+              }
+            ],
+            "brighterProfileImageThumbNailURL": "https://p-practice-media-static.digitaledge.cigna.com/dentist_216616_ingridbarillas_Wrll_medium.png",
+            "nationalProviderIds": [
+              "1205901915"
+            ],
+            "displayNationalProviderId": "1205901915",
+            "degrees": [
+              "DDS"
+            ],
+            "locationCount": "3",
+            "locations": [
+              {
+                "reportInacurraciesIndicator": "Y",
+                "tpvAffiliationIndicator": "N",
+                "locationId": "676353",
+                "streetName": "110 York St",
+                "addressLine2": "Fl 1",
+                "city": "Brooklyn",
+                "zipCode": "11201",
+                "stateCode": "NY",
+                "geoCode": {
+                  "latitude": "40.701395",
+                  "longitude": "-73.986955"
+                },
+                "latitude": "40.701395",
+                "longitude": "-73.986955",
+                "locationDistance": "1.4",
+                "facilityName": "Dumbo Smiles Management, Inc",
+                "facilityId": "676353",
+                "acceptingNewPatientIndicator": "Y",
+                "phones": [
+                  "(646) 771-4139"
+                ],
+                "rawPhones": [
+                  "6467714139"
+                ],
+                "dailyOfficeHours": {
+                  "openHours": [
+                    {
+                      "dayOfTheWeek": "Mon",
+                      "open": "9:00 AM",
+                      "close": "5:30 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Tue",
+                      "open": "9:00 AM",
+                      "close": "5:30 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Wed",
+                      "open": "9:00 AM",
+                      "close": "5:30 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Thu",
+                      "open": "9:00 AM",
+                      "close": "5:30 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Fri",
+                      "open": "9:00 AM",
+                      "close": "5:30 PM"
+                    }
+                  ]
+                },
+                "providerLocationId": "676353",
+                "county": "Kings",
+                "specialties": [
+                  {
+                    "code": "OR",
+                    "description": "Orthodontics"
+                  }
+                ],
+                "contractEffectiveDate": "12/31/9999",
+                "contractExpirationDate": "12/31/9999",
+                "brighterMatch": {
+                  "associations": [
+                    "Northeastern Society of Orthodontists",
+                    "American Association of Women Dentists",
+                    "American Association of Orthodontists",
+                    "New York Academy of Dentistry"
+                  ],
+                  "education": [
+                    {
+                      "institution": "New York University",
+                      "degreeType": "Fellowship"
+                    },
+                    {
+                      "institution": "University of Rochester",
+                      "degreeType": "Residency"
+                    },
+                    {
+                      "institution": "University of Rochester",
+                      "degreeType": "DDS",
+                      "year": "1999"
+                    }
+                  ],
+                  "otherSurveys": {
+                    "surveyScore": {
+                      "no": "0",
+                      "total": "1",
+                      "yes": "1"
+                    }
+                  },
+                  "galleryPhotos": [
+                    "https://p-practice-media-static.digitaledge.cigna.com/practice_dsjbemel54843823__portal_8bbefc6b-ab09-43d8-8592-cbecc2c9a522.jpg",
+                    "https://p-practice-media-static.digitaledge.cigna.com/practice_dsjbemel54843823__portal_914c7a8f-cbfc-4bd3-b895-2cc6d3599f68.jpg",
+                    "https://p-practice-media-static.digitaledge.cigna.com/practice_wabybrrt87432421__portal_0a8a6074-4a71-4018-9b4e-299e6c44dbf6.jpg",
+                    "https://p-practice-media-static.digitaledge.cigna.com/practice_wabybrrt87432421__portal_8bed9cf5-ed2c-466f-a00a-bfaf125eab48.jpg"
+                  ],
+                  "providerSurveys": {
+                    "surveyScore": {
+                      "no": "2",
+                      "total": "21",
+                      "yes": "19"
+                    }
+                  },
+                  "licenseInfo": [
+                    {
+                      "number": "046790",
+                      "action": "false",
+                      "state": "NY",
+                      "type": "DENTISTRY",
+                      "status": "ACTIVE"
+                    }
+                  ],
+                  "brighterOverallScore": {
+                    "score": "9.3"
+                  },
+                  "brighterAffordabilityScore": {
+                    "score": "8.9",
+                    "description": "Great Prices"
+                  },
+                  "brighterProfessionalHistoryScore": {
+                    "score": "10.0",
+                    "description": "29 years"
+                  },
+                  "brighterPatientExperienceScore": {
+                    "score": "9.0",
+                    "description": "22 Reviews"
+                  },
+                  "providerExperienceStartDate": "1996-10-11"
+                },
+                "brighterScore": {
+                  "patientExperienceScoreDesc": "22 Reviews"
+                },
+                "pharmacy90DayCoverageIndicator": false,
+                "weekendOpenIndicator": "N",
+                "reportInaccuraciesMessageCode": "NYD0001",
+                "acceptingNewPatientCode": "Y",
+                "contractId": [
+                  "H7849150000"
+                ],
+                "hvpdIndicator": "N",
+                "formattedAddressDetails": "110 York St, Brooklyn, NY, 11201",
+                "formattedAddressResults": "110 York St Brooklyn, NY 11201",
+                "adaAccessibleIndicator": "Y",
+                "networkName": "ADVANTAGE",
+                "networkTierCode": "1",
+                "ngdDetails": [
+                  {
+                    "providerDentalOfficeID": "676353",
+                    "providerDentalOfficeName": "Dumbo Smiles Management, Inc",
+                    "allowNgdSelectionForCurrentCustomers": false,
+                    "acceptingNewPatientIndicator": "Y",
+                    "allowNgdSelectionIndicator": false
+                  }
+                ],
+                "allowNgdSelectionIndicator": false,
+                "participatingProducts": []
+              }
+            ],
+            "specialties": [
+              {
+                "code": "OR",
+                "description": "Orthodontics",
+                "boardCertificationFlag": "N"
+              }
+            ],
+            "geoCodesAvailableIndicator": true,
+            "genderCode": "F",
+            "yearsOfExperience": "32"
+          },
+          {
+            "complianceMessages": [],
+            "name": "Jason S. Berk, DDS",
+            "firstName": "Jason",
+            "lastName": "Berk",
+            "middleInitial": "S",
+            "typeCode": "D",
+            "typeDescription": "Dental",
+            "groupCode": "D",
+            "groupDescription": "Dentists",
+            "providerId": "0289956",
+            "emailAddress": "gramercyortho@gmail.com",
+            "schools": [
+              {
+                "name": "SUNY at Buffalo",
+                "graduationYear": "2009"
+              }
+            ],
+            "languages": [
+              {
+                "code": "FA",
+                "description": "Farsi"
+              },
+              {
+                "code": "RU",
+                "description": "Russian"
+              },
+              {
+                "code": "SP",
+                "description": "Spanish"
+              }
+            ],
+            "brighterProfileImageThumbNailURL": "https://p-practice-media-static.digitaledge.cigna.com/provider_stubrlod99141205__portal_a56abc19-2b29-437b-b774-c401045fa822_medium.png",
+            "nationalProviderIds": [
+              "1265676746"
+            ],
+            "displayNationalProviderId": "1265676746",
+            "degrees": [
+              "DDS"
+            ],
+            "locationCount": "2",
+            "locations": [
+              {
+                "reportInacurraciesIndicator": "Y",
+                "tpvAffiliationIndicator": "N",
+                "locationId": "626353",
+                "streetName": "200 E 15th St",
+                "addressLine2": "Ste Prb",
+                "city": "New York",
+                "zipCode": "10003",
+                "stateCode": "NY",
+                "geoCode": {
+                  "latitude": "40.733793",
+                  "longitude": "-73.986606"
+                },
+                "latitude": "40.733793",
+                "longitude": "-73.986606",
+                "locationDistance": "1.8",
+                "facilityName": "Gramercy Orthodontics",
+                "facilityId": "626353",
+                "acceptingNewPatientIndicator": "Y",
+                "phones": [
+                  "(212) 777-9177"
+                ],
+                "rawPhones": [
+                  "2127779177"
+                ],
+                "dailyOfficeHours": {
+                  "openHours": [
+                    {
+                      "dayOfTheWeek": "Mon",
+                      "open": "9:00 AM",
+                      "close": "5:00 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Tue",
+                      "open": "8:00 AM",
+                      "close": "6:00 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Wed",
+                      "open": "9:00 AM",
+                      "close": "7:00 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Thu",
+                      "open": "10:00 AM",
+                      "close": "6:00 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Fri",
+                      "open": "9:00 AM",
+                      "close": "5:00 PM"
+                    }
+                  ]
+                },
+                "providerLocationId": "626353",
+                "county": "New York",
+                "specialties": [
+                  {
+                    "code": "OR",
+                    "description": "Orthodontics"
+                  }
+                ],
+                "contractEffectiveDate": "12/31/9999",
+                "contractExpirationDate": "12/31/9999",
+                "brighterMatch": {
+                  "otherSurveys": {
+                    "surveyScore": {
+                      "no": "0",
+                      "total": "1",
+                      "yes": "1"
+                    }
+                  },
+                  "galleryPhotos": [
+                    "https://p-practice-media-static.digitaledge.cigna.com/provider_stubrlod99141205__portal_zaxg.png"
+                  ],
+                  "providerSurveys": {
+                    "surveyScore": {
+                      "no": "1",
+                      "total": "42",
+                      "yes": "41"
+                    }
+                  },
+                  "licenseInfo": [
+                    {
+                      "number": "055473",
+                      "action": "false",
+                      "state": "NY",
+                      "type": "DENTISTRY",
+                      "status": "ACTIVE"
+                    },
+                    {
+                      "number": "22DI02541900",
+                      "action": "false",
+                      "state": "NJ",
+                      "type": "Dentist",
+                      "status": "ACTIVE"
+                    }
+                  ],
+                  "brighterOverallScore": {
+                    "score": "9.0"
+                  },
+                  "brighterAffordabilityScore": {
+                    "score": "7.6",
+                    "description": "Good Prices"
+                  },
+                  "brighterProfessionalHistoryScore": {
+                    "score": "10.0",
+                    "description": "14 years"
+                  },
+                  "brighterPatientExperienceScore": {
+                    "score": "9.8",
+                    "description": "43 Reviews"
+                  },
+                  "providerExperienceStartDate": "2011-06-01"
+                },
+                "brighterScore": {
+                  "patientExperienceScoreDesc": "43 Reviews"
+                },
+                "pharmacy90DayCoverageIndicator": false,
+                "weekendOpenIndicator": "N",
+                "reportInaccuraciesMessageCode": "NYD0001",
+                "acceptingNewPatientCode": "Y",
+                "contractId": [
+                  "H7849150000"
+                ],
+                "hvpdIndicator": "N",
+                "formattedAddressDetails": "200 E 15th St, New York, NY, 10003",
+                "formattedAddressResults": "200 E 15th St New York, NY 10003",
+                "adaAccessibleIndicator": "Y",
+                "networkName": "ADVANTAGE",
+                "networkTierCode": "1",
+                "ngdDetails": [
+                  {
+                    "providerDentalOfficeID": "626353",
+                    "providerDentalOfficeName": "Gramercy Orthodontics",
+                    "allowNgdSelectionForCurrentCustomers": false,
+                    "acceptingNewPatientIndicator": "Y",
+                    "allowNgdSelectionIndicator": false
+                  }
+                ],
+                "allowNgdSelectionIndicator": false,
+                "participatingProducts": []
+              }
+            ],
+            "specialties": [
+              {
+                "code": "OR",
+                "description": "Orthodontics",
+                "boardCertificationFlag": "N"
+              }
+            ],
+            "geoCodesAvailableIndicator": true,
+            "genderCode": "M",
+            "yearsOfExperience": "17"
+          },
+          {
+            "complianceMessages": [],
+            "name": "Bahram Elaahi, DDS (Barry)",
+            "firstName": "Bahram",
+            "lastName": "Elaahi",
+            "preferredName": "Barry",
+            "typeCode": "D",
+            "typeDescription": "Dental",
+            "groupCode": "D",
+            "groupDescription": "Dentists",
+            "providerId": "0292920",
+            "emailAddress": "gramercyortho@gmail.com",
+            "schools": [
+              {
+                "name": "SUNY at Stony Brook",
+                "graduationYear": "2009"
+              }
+            ],
+            "languages": [
+              {
+                "code": "FA",
+                "description": "Farsi"
+              },
+              {
+                "code": "RU",
+                "description": "Russian"
+              },
+              {
+                "code": "SP",
+                "description": "Spanish"
+              }
+            ],
+            "brighterProfileImageThumbNailURL": "https://p-practice-media-static.digitaledge.cigna.com/provider_esibqvwx15236012__portal_ef626003-df6b-4ec0-9f32-6fab83dbd1ab_medium.png",
+            "nationalProviderIds": [
+              "1992949606"
+            ],
+            "displayNationalProviderId": "1992949606",
+            "degrees": [
+              "DDS"
+            ],
+            "locationCount": "2",
+            "locations": [
+              {
+                "reportInacurraciesIndicator": "Y",
+                "tpvAffiliationIndicator": "N",
+                "locationId": "626353",
+                "streetName": "200 E 15th St",
+                "addressLine2": "Ste Prb",
+                "city": "New York",
+                "zipCode": "10003",
+                "stateCode": "NY",
+                "geoCode": {
+                  "latitude": "40.733793",
+                  "longitude": "-73.986606"
+                },
+                "latitude": "40.733793",
+                "longitude": "-73.986606",
+                "locationDistance": "1.8",
+                "facilityName": "Gramercy Orthodontics",
+                "facilityId": "626353",
+                "acceptingNewPatientIndicator": "Y",
+                "phones": [
+                  "(212) 777-9177"
+                ],
+                "rawPhones": [
+                  "2127779177"
+                ],
+                "dailyOfficeHours": {
+                  "openHours": [
+                    {
+                      "dayOfTheWeek": "Mon",
+                      "open": "9:00 AM",
+                      "close": "5:00 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Tue",
+                      "open": "8:00 AM",
+                      "close": "6:00 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Wed",
+                      "open": "9:00 AM",
+                      "close": "7:00 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Thu",
+                      "open": "10:00 AM",
+                      "close": "6:00 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Fri",
+                      "open": "9:00 AM",
+                      "close": "5:00 PM"
+                    }
+                  ]
+                },
+                "providerLocationId": "626353",
+                "county": "New York",
+                "specialties": [
+                  {
+                    "code": "OR",
+                    "description": "Orthodontics"
+                  }
+                ],
+                "contractEffectiveDate": "12/31/9999",
+                "contractExpirationDate": "12/31/9999",
+                "brighterMatch": {
+                  "associations": [
+                    "American Dental Association",
+                    "American Association Of Orthodontists",
+                    "New York State Dental Association"
+                  ],
+                  "education": [
+                    {
+                      "institution": "Stony Brook University",
+                      "degreeType": "Residency",
+                      "year": "2013"
+                    },
+                    {
+                      "institution": "Stony Brook University",
+                      "degreeType": "DDS",
+                      "year": "2009"
+                    },
+                    {
+                      "institution": "Cornell University",
+                      "degreeType": "BS",
+                      "year": "2005"
+                    }
+                  ],
+                  "otherSurveys": {
+                    "surveyScore": {
+                      "no": "0",
+                      "total": "8",
+                      "yes": "8"
+                    }
+                  },
+                  "providerSurveys": {
+                    "surveyScore": {
+                      "no": "0",
+                      "total": "13",
+                      "yes": "13"
+                    }
+                  },
+                  "licenseInfo": [
+                    {
+                      "number": "056515",
+                      "action": "false",
+                      "state": "NY",
+                      "type": "DENTISTRY",
+                      "status": "ACTIVE"
+                    }
+                  ],
+                  "brighterOverallScore": {
+                    "score": "9.0"
+                  },
+                  "brighterAffordabilityScore": {
+                    "score": "7.6",
+                    "description": "Good Prices"
+                  },
+                  "brighterProfessionalHistoryScore": {
+                    "score": "10.0",
+                    "description": "13 years"
+                  },
+                  "brighterPatientExperienceScore": {
+                    "score": "9.8",
+                    "description": "21 Reviews"
+                  },
+                  "providerExperienceStartDate": "2013-01-10"
+                },
+                "brighterScore": {
+                  "patientExperienceScoreDesc": "21 Reviews"
+                },
+                "pharmacy90DayCoverageIndicator": false,
+                "weekendOpenIndicator": "N",
+                "reportInaccuraciesMessageCode": "NYD0001",
+                "acceptingNewPatientCode": "Y",
+                "contractId": [
+                  "H7849150000"
+                ],
+                "hvpdIndicator": "N",
+                "formattedAddressDetails": "200 E 15th St, New York, NY, 10003",
+                "formattedAddressResults": "200 E 15th St New York, NY 10003",
+                "adaAccessibleIndicator": "Y",
+                "networkName": "ADVANTAGE",
+                "networkTierCode": "1",
+                "ngdDetails": [
+                  {
+                    "providerDentalOfficeID": "626353",
+                    "providerDentalOfficeName": "Gramercy Orthodontics",
+                    "allowNgdSelectionForCurrentCustomers": false,
+                    "acceptingNewPatientIndicator": "Y",
+                    "allowNgdSelectionIndicator": false
+                  }
+                ],
+                "allowNgdSelectionIndicator": false,
+                "participatingProducts": []
+              }
+            ],
+            "specialties": [
+              {
+                "code": "OR",
+                "description": "Orthodontics",
+                "boardCertificationFlag": "Y"
+              }
+            ],
+            "geoCodesAvailableIndicator": true,
+            "genderCode": "M",
+            "yearsOfExperience": "17"
+          },
+          {
+            "complianceMessages": [],
+            "name": "Yon H. Lai, DDS",
+            "firstName": "Yon",
+            "lastName": "Lai",
+            "middleInitial": "H",
+            "typeCode": "D",
+            "typeDescription": "Dental",
+            "groupCode": "D",
+            "groupDescription": "Dentists",
+            "providerId": "0063365",
+            "age": "67",
+            "emailAddress": "yonlai.ortho@gmail.com",
+            "schools": [
+              {
+                "name": "New York University",
+                "graduationYear": "1989"
+              }
+            ],
+            "languages": [
+              {
+                "code": "BU",
+                "description": "Burmese"
+              },
+              {
+                "code": "CA",
+                "description": "Cantonese"
+              },
+              {
+                "code": "CH",
+                "description": "Chinese"
+              },
+              {
+                "code": "MA",
+                "description": "Mandarin"
+              }
+            ],
+            "brighterProfileImageThumbNailURL": "https://p-practice-media-static.digitaledge.cigna.com/provider_frziknrc97614004__portal_650766c9-a7a0-47ee-9ce3-0a4366aad890_medium.png",
+            "nationalProviderIds": [
+              "1487856522"
+            ],
+            "displayNationalProviderId": "1487856522",
+            "degrees": [
+              "DDS"
+            ],
+            "locationCount": "1",
+            "locations": [
+              {
+                "reportInacurraciesIndicator": "Y",
+                "tpvAffiliationIndicator": "N",
+                "locationId": "191328",
+                "streetName": "11 E Broadway",
+                "addressLine2": "Ste 15",
+                "city": "New York",
+                "zipCode": "10038",
+                "stateCode": "NY",
+                "geoCode": {
+                  "latitude": "40.705218",
+                  "longitude": "-74.013990"
+                },
+                "latitude": "40.705218",
+                "longitude": "-74.013990",
+                "locationDistance": "0.7",
+                "facilityName": "Yon H Lai, DDS",
+                "facilityId": "191328",
+                "acceptingNewPatientIndicator": "Y",
+                "phones": [
+                  "(212) 267-1800"
+                ],
+                "rawPhones": [
+                  "2122671800"
+                ],
+                "dailyOfficeHours": {
+                  "openHours": [
+                    {
+                      "dayOfTheWeek": "Mon",
+                      "open": "10:30 AM",
+                      "close": "5:30 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Wed",
+                      "open": "10:30 AM",
+                      "close": "5:30 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Thu",
+                      "open": "10:30 AM",
+                      "close": "5:30 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Fri",
+                      "open": "10:30 AM",
+                      "close": "5:30 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Sat",
+                      "open": "10:30 AM",
+                      "close": "1:00 PM"
+                    }
+                  ]
+                },
+                "providerLocationId": "191328",
+                "county": "New York",
+                "specialties": [
+                  {
+                    "code": "OR",
+                    "description": "Orthodontics"
+                  }
+                ],
+                "contractEffectiveDate": "12/31/9999",
+                "contractExpirationDate": "12/31/9999",
+                "brighterMatch": {
+                  "technologies": [
+                    "Digital X-Rays"
+                  ],
+                  "amenities": [
+                    "Television/Movies"
+                  ],
+                  "education": [
+                    {
+                      "institution": "New York University",
+                      "degreeType": "DDS",
+                      "year": "1989"
+                    }
+                  ],
+                  "otherSurveys": {
+                    "surveyScore": {
+                      "no": "0",
+                      "total": "1",
+                      "yes": "1"
+                    }
+                  },
+                  "galleryPhotos": [
+                    "https://p-practice-media-static.digitaledge.cigna.com/practice_ibkehcjb86858577__portal_35ba63d5-82ce-4e2e-aaa8-609bc69f6c71.jpg",
+                    "https://p-practice-media-static.digitaledge.cigna.com/practice_ibkehcjb86858577__portal_8b0ea8a9-e960-4094-b954-c0dcfd4d502c.jpg",
+                    "https://p-practice-media-static.digitaledge.cigna.com/practice_ibkehcjb86858577__portal_161a0b9e-8c58-40a6-a184-bf87d0580880.jpg",
+                    "https://p-practice-media-static.digitaledge.cigna.com/practice_ibkehcjb86858577__portal_9bc73aae-6061-41cc-bce7-b931f56123c7.jpg",
+                    "https://p-practice-media-static.digitaledge.cigna.com/practice_ibkehcjb86858577__portal_b6073721-d2b2-4f20-bedb-445baefef096.jpg",
+                    "https://p-practice-media-static.digitaledge.cigna.com/practice_ibkehcjb86858577__portal_87222b66-6069-46d1-bd02-68b1686026ab.jpg",
+                    "https://p-practice-media-static.digitaledge.cigna.com/practice_262432_yonlaiddspc_mapstreetview_NDOH.jpg",
+                    "https://p-practice-media-static.digitaledge.cigna.com/practice_ibkehcjb86858577__portal_bf62d46a-85c0-4456-bf30-333614a6aba7.jpg",
+                    "https://p-practice-media-static.digitaledge.cigna.com/practice_ibkehcjb86858577__portal_e2091072-93cb-4911-9484-3bcb260530a3.jpg",
+                    "https://p-practice-media-static.digitaledge.cigna.com/practice_ibkehcjb86858577__portal_e5cf46d6-7efd-438c-916c-b862caea76da.jpg"
+                  ],
+                  "providerSurveys": {
+                    "surveyScore": {
+                      "no": "2",
+                      "total": "6",
+                      "yes": "4"
+                    }
+                  },
+                  "officeHours": [
+                    {
+                      "dayOfWeek": "Monday",
+                      "closeTime": "17:30:00",
+                      "openTime": "10:30:00"
+                    },
+                    {
+                      "dayOfWeek": "Wednesday",
+                      "closeTime": "17:30:00",
+                      "openTime": "10:30:00"
+                    },
+                    {
+                      "dayOfWeek": "Thursday",
+                      "closeTime": "17:30:00",
+                      "openTime": "10:30:00"
+                    },
+                    {
+                      "dayOfWeek": "Friday",
+                      "closeTime": "17:30:00",
+                      "openTime": "10:30:00"
+                    },
+                    {
+                      "dayOfWeek": "Saturday",
+                      "closeTime": "13:00:00",
+                      "openTime": "10:30:00"
+                    }
+                  ],
+                  "licenseInfo": [
+                    {
+                      "number": "042324",
+                      "action": "false",
+                      "state": "NY",
+                      "type": "DENTISTRY",
+                      "status": "ACTIVE"
+                    }
+                  ],
+                  "brighterOverallScore": {
+                    "score": "8.7"
+                  },
+                  "brighterAffordabilityScore": {
+                    "score": "9.1",
+                    "description": "Great Prices"
+                  },
+                  "brighterProfessionalHistoryScore": {
+                    "score": "10.0",
+                    "description": "36 years"
+                  },
+                  "brighterPatientExperienceScore": {
+                    "score": "6.9",
+                    "description": "7 Reviews"
+                  },
+                  "providerExperienceStartDate": "1989-08-02",
+                  "profileBadges": [
+                    {
+                      "url": "https://d3ppyoxr8wczcq.cloudfront.net/images/june2014/IC-experience.svg",
+                      "name": "YEARS OF EXPERIENCE"
+                    }
+                  ]
+                },
+                "brighterScore": {
+                  "patientExperienceScoreDesc": "7 Reviews"
+                },
+                "pharmacy90DayCoverageIndicator": false,
+                "weekendOpenIndicator": "Y",
+                "reportInaccuraciesMessageCode": "NYD0001",
+                "acceptingNewPatientCode": "Y",
+                "contractId": [
+                  "H7849150000"
+                ],
+                "hvpdIndicator": "N",
+                "formattedAddressDetails": "11 E Broadway, New York, NY, 10038",
+                "formattedAddressResults": "11 E Broadway New York, NY 10038",
+                "adaAccessibleIndicator": "Y",
+                "networkName": "ADVANTAGE",
+                "networkTierCode": "1",
+                "ngdDetails": [
+                  {
+                    "providerDentalOfficeID": "191328",
+                    "providerDentalOfficeName": "Yon H Lai, DDS",
+                    "allowNgdSelectionForCurrentCustomers": false,
+                    "acceptingNewPatientIndicator": "Y",
+                    "allowNgdSelectionIndicator": false
+                  }
+                ],
+                "allowNgdSelectionIndicator": false,
+                "participatingProducts": []
+              }
+            ],
+            "specialties": [
+              {
+                "code": "OR",
+                "description": "Orthodontics",
+                "boardCertificationFlag": "Y"
+              }
+            ],
+            "geoCodesAvailableIndicator": true,
+            "genderCode": "M",
+            "yearsOfExperience": "37"
+          },
+          {
+            "complianceMessages": [],
+            "name": "Seth A. Newman, DDS",
+            "firstName": "Seth",
+            "lastName": "Newman",
+            "middleInitial": "A",
+            "typeCode": "D",
+            "typeDescription": "Dental",
+            "groupCode": "D",
+            "groupDescription": "Dentists",
+            "providerId": "0169454",
+            "age": "48",
+            "emailAddress": "hellohm@tinysmilesdental.com",
+            "schools": [
+              {
+                "name": "SUNY at Stony Brook",
+                "graduationYear": "2003"
+              }
+            ],
+            "languages": [
+              {
+                "code": "SP",
+                "description": "Spanish"
+              }
+            ],
+            "brighterProfileImageThumbNailURL": "https://p-practice-media-static.digitaledge.cigna.com/provider_xweslnbf75679282__portal_13b3e567-badb-40ec-8403-b3007266ffc4_medium.png",
+            "nationalProviderIds": [
+              "1831296482"
+            ],
+            "displayNationalProviderId": "1831296482",
+            "degrees": [
+              "DDS"
+            ],
+            "locationCount": "22",
+            "locations": [
+              {
+                "reportInacurraciesIndicator": "Y",
+                "tpvAffiliationIndicator": "N",
+                "locationId": "760513",
+                "streetName": "504 Grand Street",
+                "addressLine2": "M5",
+                "city": "New York",
+                "zipCode": "10002",
+                "stateCode": "NY",
+                "geoCode": {
+                  "latitude": "40.7152214",
+                  "longitude": "-73.9819469"
+                },
+                "latitude": "40.7152214",
+                "longitude": "-73.9819469",
+                "locationDistance": "1.4",
+                "facilityName": "Tiny Smiles Dentistry",
+                "facilityId": "760513",
+                "acceptingNewPatientIndicator": "Y",
+                "phones": [
+                  "(646) 970-3878"
+                ],
+                "rawPhones": [
+                  "6469703878"
+                ],
+                "dailyOfficeHours": {
+                  "openHours": [
+                    {
+                      "dayOfTheWeek": "Mon",
+                      "open": "9:00 AM",
+                      "close": "6:00 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Tue",
+                      "open": "9:00 AM",
+                      "close": "6:00 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Wed",
+                      "open": "9:00 AM",
+                      "close": "6:00 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Thu",
+                      "open": "9:00 AM",
+                      "close": "6:00 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Fri",
+                      "open": "9:00 AM",
+                      "close": "6:00 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Sat",
+                      "open": "9:00 AM",
+                      "close": "4:00 PM"
+                    }
+                  ]
+                },
+                "providerLocationId": "760513",
+                "county": "New York County",
+                "specialties": [
+                  {
+                    "code": "OR",
+                    "description": "Orthodontics"
+                  }
+                ],
+                "contractEffectiveDate": "12/31/9999",
+                "contractExpirationDate": "12/31/9999",
+                "brighterMatch": {
+                  "associations": [
+                    "American Dental Association",
+                    "American Board of Orthodontics",
+                    "American Association Of Orthodontists",
+                    "New York State Dental Association",
+                    "Nassau County Dental Society",
+                    "New York County Dental Society",
+                    "Northeast Society of Orthodontists"
+                  ],
+                  "education": [
+                    {
+                      "institution": "Binghamton University",
+                      "degreeType": "BS"
+                    },
+                    {
+                      "institution": "State University of New York at Stony Brook",
+                      "degreeType": "DDS",
+                      "year": "2003"
+                    }
+                  ],
+                  "otherSurveys": {
+                    "surveyScore": {
+                      "no": "0",
+                      "total": "2",
+                      "yes": "2"
+                    }
+                  },
+                  "galleryPhotos": [
+                    "https://p-practice-media-static.digitaledge.cigna.com/dentist_242607_sethnewman_LphF.jpg"
+                  ],
+                  "providerSurveys": {
+                    "surveyScore": {
+                      "no": "2",
+                      "total": "63",
+                      "yes": "61"
+                    }
+                  },
+                  "licenseInfo": [
+                    {
+                      "number": "051005",
+                      "action": "false",
+                      "state": "NY",
+                      "type": "DENTISTRY",
+                      "status": "ACTIVE"
+                    },
+                    {
+                      "number": "22DI02321400",
+                      "action": "false",
+                      "state": "NJ",
+                      "type": "Dentist",
+                      "status": "ACTIVE"
+                    }
+                  ],
+                  "certifications": [
+                    "Orthopaedic Surgery"
+                  ],
+                  "brighterOverallScore": {
+                    "score": "8.7"
+                  },
+                  "brighterAffordabilityScore": {
+                    "score": "7.0",
+                    "description": "Good Prices"
+                  },
+                  "brighterProfessionalHistoryScore": {
+                    "score": "10.0",
+                    "description": "22 years"
+                  },
+                  "brighterPatientExperienceScore": {
+                    "score": "9.7",
+                    "description": "65 Reviews"
+                  },
+                  "providerExperienceStartDate": "2003-10-15"
+                },
+                "brighterScore": {
+                  "patientExperienceScoreDesc": "65 Reviews"
+                },
+                "pharmacy90DayCoverageIndicator": false,
+                "weekendOpenIndicator": "Y",
+                "reportInaccuraciesMessageCode": "NYD0001",
+                "acceptingNewPatientCode": "Y",
+                "contractId": [
+                  "H7849150000"
+                ],
+                "hvpdIndicator": "N",
+                "formattedAddressDetails": "504 Grand Street, New York, NY, 10002",
+                "formattedAddressResults": "504 Grand Street New York, NY 10002",
+                "adaAccessibleIndicator": "Y",
+                "networkName": "ADVANTAGE",
+                "networkTierCode": "1",
+                "ngdDetails": [
+                  {
+                    "providerDentalOfficeID": "760513",
+                    "providerDentalOfficeName": "Tiny Smiles Dentistry",
+                    "allowNgdSelectionForCurrentCustomers": false,
+                    "acceptingNewPatientIndicator": "Y",
+                    "allowNgdSelectionIndicator": false
+                  }
+                ],
+                "allowNgdSelectionIndicator": false,
+                "participatingProducts": []
+              }
+            ],
+            "specialties": [
+              {
+                "code": "OR",
+                "description": "Orthodontics",
+                "boardCertificationFlag": "N"
+              }
+            ],
+            "geoCodesAvailableIndicator": true,
+            "genderCode": "M",
+            "yearsOfExperience": "23"
+          },
+          {
+            "complianceMessages": [],
+            "name": "Mani Alikhani, DMD",
+            "firstName": "Mani",
+            "lastName": "Alikhani",
+            "typeCode": "D",
+            "typeDescription": "Dental",
+            "groupCode": "D",
+            "groupDescription": "Dentists",
+            "providerId": "0329375",
+            "emailAddress": "info@theorthodonticscenter.com",
+            "schools": [
+              {
+                "name": "Tufts University",
+                "graduationYear": "2006"
+              }
+            ],
+            "languages": [
+              {
+                "code": "AR",
+                "description": "Arabic"
+              },
+              {
+                "code": "FA",
+                "description": "Farsi"
+              },
+              {
+                "code": "SP",
+                "description": "Spanish"
+              }
+            ],
+            "brighterProfileImageThumbNailURL": "https://p-practice-media-static.digitaledge.cigna.com/dentist_244750_manialikhani_mScK_medium.jpg",
+            "nationalProviderIds": [
+              "1609964477"
+            ],
+            "displayNationalProviderId": "1609964477",
+            "degrees": [
+              "DMD"
+            ],
+            "locationCount": "2",
+            "locations": [
+              {
+                "reportInacurraciesIndicator": "Y",
+                "tpvAffiliationIndicator": "N",
+                "locationId": "679983",
+                "streetName": "79 Hudson St",
+                "addressLine2": "Ste 201",
+                "city": "Hoboken",
+                "zipCode": "07030",
+                "stateCode": "NJ",
+                "geoCode": {
+                  "latitude": "40.736358",
+                  "longitude": "-74.029931"
+                },
+                "latitude": "40.736358",
+                "longitude": "-74.029931",
+                "locationDistance": "1.9",
+                "facilityName": "The Orthodontics Center",
+                "facilityId": "679983",
+                "acceptingNewPatientIndicator": "Y",
+                "phones": [
+                  "(551) 900-6200"
+                ],
+                "rawPhones": [
+                  "5519006200"
+                ],
+                "dailyOfficeHours": {
+                  "openHours": [
+                    {
+                      "dayOfTheWeek": "Mon",
+                      "open": "10:00 AM",
+                      "close": "6:00 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Tue",
+                      "open": "10:00 AM",
+                      "close": "6:00 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Wed",
+                      "open": "10:00 AM",
+                      "close": "6:00 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Thu",
+                      "open": "10:00 AM",
+                      "close": "6:00 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Fri",
+                      "open": "9:00 AM",
+                      "close": "1:00 PM"
+                    }
+                  ]
+                },
+                "providerLocationId": "679983",
+                "county": "Hudson",
+                "specialties": [
+                  {
+                    "code": "OR",
+                    "description": "Orthodontics"
+                  }
+                ],
+                "contractEffectiveDate": "12/31/9999",
+                "contractExpirationDate": "12/31/9999",
+                "brighterMatch": {
+                  "associations": [
+                    "American Dental Association",
+                    "American Association of Orthodontics",
+                    "International Association for Dental Research",
+                    "American Association for Dental Research",
+                    "North East Society of Orthodontics"
+                  ],
+                  "education": [
+                    {
+                      "institution": "Boston University",
+                      "degreeType": "PHD"
+                    },
+                    {
+                      "institution": "Tufts University",
+                      "degreeType": "DMD",
+                      "year": "2006"
+                    }
+                  ],
+                  "otherSurveys": {
+                    "surveyScore": {
+                      "no": "0",
+                      "total": "0",
+                      "yes": "0"
+                    }
+                  },
+                  "providerSurveys": {
+                    "surveyScore": {
+                      "no": "0",
+                      "total": "15",
+                      "yes": "15"
+                    }
+                  },
+                  "licenseInfo": [
+                    {
+                      "number": "DN21581",
+                      "action": "false",
+                      "state": "MA",
+                      "type": "Dentist",
+                      "status": "INACTIVE"
+                    },
+                    {
+                      "number": "053463",
+                      "action": "false",
+                      "state": "NY",
+                      "type": "DENTISTRY",
+                      "status": "ACTIVE"
+                    },
+                    {
+                      "number": "22DI02623700",
+                      "action": "false",
+                      "state": "NJ",
+                      "type": "Dentist",
+                      "status": "ACTIVE"
+                    }
+                  ],
+                  "brighterOverallScore": {
+                    "score": "8.7"
+                  },
+                  "brighterAffordabilityScore": {
+                    "score": "6.7",
+                    "description": "Good Prices"
+                  },
+                  "brighterProfessionalHistoryScore": {
+                    "score": "10.0",
+                    "description": "19 years"
+                  },
+                  "brighterPatientExperienceScore": {
+                    "score": "10.0",
+                    "description": "15 Reviews"
+                  },
+                  "providerExperienceStartDate": "2006-05-23"
+                },
+                "brighterScore": {
+                  "patientExperienceScoreDesc": "15 Reviews"
+                },
+                "pharmacy90DayCoverageIndicator": false,
+                "weekendOpenIndicator": "N",
+                "reportInaccuraciesMessageCode": "NJD0001",
+                "acceptingNewPatientCode": "Y",
+                "hvpdIndicator": "N",
+                "formattedAddressDetails": "79 Hudson St, Hoboken, NJ, 07030",
+                "formattedAddressResults": "79 Hudson St Hoboken, NJ 07030",
+                "adaAccessibleIndicator": "Y",
+                "networkName": "ADVANTAGE",
+                "networkTierCode": "1",
+                "ngdDetails": [
+                  {
+                    "providerDentalOfficeID": "679983",
+                    "providerDentalOfficeName": "The Orthodontics Center",
+                    "allowNgdSelectionForCurrentCustomers": false,
+                    "acceptingNewPatientIndicator": "Y",
+                    "allowNgdSelectionIndicator": false
+                  }
+                ],
+                "allowNgdSelectionIndicator": false,
+                "participatingProducts": []
+              }
+            ],
+            "specialties": [
+              {
+                "code": "OR",
+                "description": "Orthodontics",
+                "boardCertificationFlag": "N"
+              }
+            ],
+            "geoCodesAvailableIndicator": true,
+            "genderCode": "M",
+            "yearsOfExperience": "20"
+          },
+          {
+            "complianceMessages": [],
+            "name": "Holly Holland, DDS",
+            "firstName": "Holly",
+            "lastName": "Holland",
+            "typeCode": "D",
+            "typeDescription": "Dental",
+            "groupCode": "D",
+            "groupDescription": "Dentists",
+            "providerId": "0384040",
+            "age": "36",
+            "emailAddress": "billing@diamondbraces.com",
+            "schools": [
+              {
+                "name": "University of Tennessee",
+                "graduationYear": "2018"
+              }
+            ],
+            "languages": [
+              {
+                "code": "KO",
+                "description": "Korean"
+              },
+              {
+                "code": "PO",
+                "description": "Polish"
+              },
+              {
+                "code": "RU",
+                "description": "Russian"
+              },
+              {
+                "code": "SP",
+                "description": "Spanish"
+              }
+            ],
+            "nationalProviderIds": [
+              "1083101315"
+            ],
+            "displayNationalProviderId": "1083101315",
+            "degrees": [
+              "DDS"
+            ],
+            "locationCount": "15",
+            "locations": [
+              {
+                "reportInacurraciesIndicator": "Y",
+                "tpvAffiliationIndicator": "N",
+                "locationId": "679925",
+                "streetName": "97 E 4th St",
+                "city": "New York",
+                "zipCode": "10003",
+                "stateCode": "NY",
+                "geoCode": {
+                  "latitude": "40.726056",
+                  "longitude": "-73.988739"
+                },
+                "latitude": "40.726056",
+                "longitude": "-73.988739",
+                "locationDistance": "1.3",
+                "facilityName": "Washington Heights Orthodontic",
+                "facilityId": "679925",
+                "acceptingNewPatientIndicator": "Y",
+                "phones": [
+                  "(212) 292-3848"
+                ],
+                "rawPhones": [
+                  "2122923848"
+                ],
+                "dailyOfficeHours": {
+                  "openHours": [
+                    {
+                      "dayOfTheWeek": "Mon",
+                      "open": "11:00 AM",
+                      "close": "7:00 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Tue",
+                      "open": "10:00 AM",
+                      "close": "6:00 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Wed",
+                      "open": "10:00 AM",
+                      "close": "6:00 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Thu",
+                      "open": "11:00 AM",
+                      "close": "7:00 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Fri",
+                      "open": "9:00 AM",
+                      "close": "5:00 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Sat",
+                      "open": "9:00 AM",
+                      "close": "4:00 PM"
+                    }
+                  ]
+                },
+                "providerLocationId": "679925",
+                "county": "New York",
+                "specialties": [
+                  {
+                    "code": "OR",
+                    "description": "Orthodontics"
+                  }
+                ],
+                "contractEffectiveDate": "12/31/9999",
+                "contractExpirationDate": "12/31/9999",
+                "brighterMatch": {
+                  "otherSurveys": {
+                    "surveyScore": {
+                      "no": "1",
+                      "total": "7",
+                      "yes": "6"
+                    }
+                  },
+                  "providerSurveys": {
+                    "surveyScore": {
+                      "no": "0",
+                      "total": "0",
+                      "yes": "0"
+                    }
+                  },
+                  "licenseInfo": [
+                    {
+                      "number": "060467",
+                      "action": "false",
+                      "state": "NY",
+                      "type": "DENTISTRY",
+                      "status": "ACTIVE"
+                    }
+                  ],
+                  "brighterOverallScore": {
+                    "score": "8.6"
+                  },
+                  "brighterAffordabilityScore": {
+                    "score": "9.3",
+                    "description": "Great Prices"
+                  },
+                  "brighterProfessionalHistoryScore": {
+                    "score": "8.9",
+                    "description": "6 years"
+                  },
+                  "brighterPatientExperienceScore": {
+                    "description": "Insufficient Data"
+                  },
+                  "providerExperienceStartDate": "2019-07-19"
+                },
+                "brighterScore": {
+                  "patientExperienceScoreDesc": "Insufficient Data"
+                },
+                "pharmacy90DayCoverageIndicator": false,
+                "weekendOpenIndicator": "Y",
+                "reportInaccuraciesMessageCode": "NYD0001",
+                "acceptingNewPatientCode": "Y",
+                "contractId": [
+                  "H7849150000"
+                ],
+                "hvpdIndicator": "N",
+                "formattedAddressDetails": "97 E 4th St, New York, NY, 10003",
+                "formattedAddressResults": "97 E 4th St New York, NY 10003",
+                "adaAccessibleIndicator": "Y",
+                "networkName": "ADVANTAGE",
+                "networkTierCode": "1",
+                "ngdDetails": [
+                  {
+                    "providerDentalOfficeID": "679925",
+                    "providerDentalOfficeName": "Washington Heights Orthodontic",
+                    "allowNgdSelectionForCurrentCustomers": false,
+                    "acceptingNewPatientIndicator": "Y",
+                    "allowNgdSelectionIndicator": false
+                  }
+                ],
+                "allowNgdSelectionIndicator": false,
+                "participatingProducts": []
+              }
+            ],
+            "specialties": [
+              {
+                "code": "OR",
+                "description": "Orthodontics",
+                "boardCertificationFlag": "N"
+              }
+            ],
+            "geoCodesAvailableIndicator": true,
+            "genderCode": "F",
+            "yearsOfExperience": "8"
+          },
+          {
+            "complianceMessages": [],
+            "name": "Rebecca C. Dresner, DMD",
+            "firstName": "Rebecca",
+            "lastName": "Dresner",
+            "middleInitial": "C",
+            "typeCode": "D",
+            "typeDescription": "Dental",
+            "groupCode": "D",
+            "groupDescription": "Dentists",
+            "providerId": "0448581",
+            "age": "33",
+            "emailAddress": "billing@diamondbraces.com",
+            "schools": [
+              {
+                "name": "University of Pennsylvania",
+                "graduationYear": "2018"
+              }
+            ],
+            "languages": [
+              {
+                "code": "RU",
+                "description": "Russian"
+              },
+              {
+                "code": "SP",
+                "description": "Spanish"
+              }
+            ],
+            "nationalProviderIds": [
+              "1881197960"
+            ],
+            "displayNationalProviderId": "1881197960",
+            "degrees": [
+              "DMD"
+            ],
+            "locationCount": "6",
+            "locations": [
+              {
+                "reportInacurraciesIndicator": "Y",
+                "tpvAffiliationIndicator": "N",
+                "locationId": "679925",
+                "streetName": "97 E 4th St",
+                "city": "New York",
+                "zipCode": "10003",
+                "stateCode": "NY",
+                "geoCode": {
+                  "latitude": "40.726056",
+                  "longitude": "-73.988739"
+                },
+                "latitude": "40.726056",
+                "longitude": "-73.988739",
+                "locationDistance": "1.3",
+                "facilityName": "Washington Heights Orthodontic",
+                "facilityId": "679925",
+                "acceptingNewPatientIndicator": "Y",
+                "phones": [
+                  "(212) 292-3848"
+                ],
+                "rawPhones": [
+                  "2122923848"
+                ],
+                "dailyOfficeHours": {
+                  "openHours": [
+                    {
+                      "dayOfTheWeek": "Mon",
+                      "open": "11:00 AM",
+                      "close": "7:00 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Tue",
+                      "open": "10:00 AM",
+                      "close": "6:00 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Wed",
+                      "open": "10:00 AM",
+                      "close": "6:00 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Thu",
+                      "open": "11:00 AM",
+                      "close": "7:00 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Fri",
+                      "open": "9:00 AM",
+                      "close": "5:00 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Sat",
+                      "open": "9:00 AM",
+                      "close": "4:00 PM"
+                    }
+                  ]
+                },
+                "providerLocationId": "679925",
+                "county": "New York",
+                "specialties": [
+                  {
+                    "code": "OR",
+                    "description": "Orthodontics"
+                  }
+                ],
+                "contractEffectiveDate": "12/31/9999",
+                "contractExpirationDate": "12/31/9999",
+                "brighterMatch": {
+                  "otherSurveys": {
+                    "surveyScore": {
+                      "no": "1",
+                      "total": "7",
+                      "yes": "6"
+                    }
+                  },
+                  "providerSurveys": {
+                    "surveyScore": {
+                      "no": "0",
+                      "total": "0",
+                      "yes": "0"
+                    }
+                  },
+                  "licenseInfo": [
+                    {
+                      "number": "062432",
+                      "action": "false",
+                      "state": "NY",
+                      "type": "DENTISTRY",
+                      "status": "ACTIVE"
+                    },
+                    {
+                      "number": "DN24047",
+                      "action": "false",
+                      "state": "FL",
+                      "type": "DENTIST",
+                      "status": "ACTIVE"
+                    }
+                  ],
+                  "brighterOverallScore": {
+                    "score": "8.0"
+                  },
+                  "brighterAffordabilityScore": {
+                    "score": "9.3",
+                    "description": "Great Prices"
+                  },
+                  "brighterProfessionalHistoryScore": {
+                    "score": "6.8",
+                    "description": "3 years"
+                  },
+                  "brighterPatientExperienceScore": {
+                    "description": "Insufficient Data"
+                  },
+                  "providerExperienceStartDate": "2022-07-06"
+                },
+                "brighterScore": {
+                  "patientExperienceScoreDesc": "Insufficient Data"
+                },
+                "pharmacy90DayCoverageIndicator": false,
+                "weekendOpenIndicator": "Y",
+                "reportInaccuraciesMessageCode": "NYD0001",
+                "acceptingNewPatientCode": "Y",
+                "hvpdIndicator": "N",
+                "formattedAddressDetails": "97 E 4th St, New York, NY, 10003",
+                "formattedAddressResults": "97 E 4th St New York, NY 10003",
+                "adaAccessibleIndicator": "Y",
+                "networkName": "ADVANTAGE",
+                "networkTierCode": "1",
+                "ngdDetails": [
+                  {
+                    "providerDentalOfficeID": "679925",
+                    "providerDentalOfficeName": "Washington Heights Orthodontic",
+                    "allowNgdSelectionForCurrentCustomers": false,
+                    "acceptingNewPatientIndicator": "Y",
+                    "allowNgdSelectionIndicator": false
+                  }
+                ],
+                "allowNgdSelectionIndicator": false,
+                "participatingProducts": []
+              }
+            ],
+            "specialties": [
+              {
+                "code": "OR",
+                "description": "Orthodontics",
+                "boardCertificationFlag": "N"
+              }
+            ],
+            "geoCodesAvailableIndicator": true,
+            "genderCode": "F",
+            "yearsOfExperience": "8"
+          },
+          {
+            "complianceMessages": [],
+            "name": "Michele Equinda, DDS",
+            "firstName": "Michele",
+            "lastName": "Equinda",
+            "typeCode": "D",
+            "typeDescription": "Dental",
+            "groupCode": "D",
+            "groupDescription": "Dentists",
+            "providerId": "0357513",
+            "schools": [
+              {
+                "name": "New York University",
+                "graduationYear": "2015"
+              }
+            ],
+            "brighterProfileImageThumbNailURL": "https://p-practice-media-static.digitaledge.cigna.com/provider_zmenqiro76258403__portal_5c7c92fb-6c96-45db-9059-76d3faf04c17_medium.png",
+            "nationalProviderIds": [
+              "1578055950"
+            ],
+            "displayNationalProviderId": "1578055950",
+            "degrees": [
+              "DDS"
+            ],
+            "locationCount": "1",
+            "locations": [
+              {
+                "reportInacurraciesIndicator": "Y",
+                "tpvAffiliationIndicator": "N",
+                "locationId": "422320",
+                "streetName": "15 Harrison Street",
+                "addressLine2": "1ST FL",
+                "city": "New York",
+                "zipCode": "10013",
+                "stateCode": "NY",
+                "geoCode": {
+                  "latitude": "40.7185619",
+                  "longitude": "-74.0098603"
+                },
+                "latitude": "40.7185619",
+                "longitude": "-74.0098603",
+                "locationDistance": "0.3",
+                "facilityName": "Bronsky Orthodontics",
+                "facilityId": "422320",
+                "acceptingNewPatientIndicator": "Y",
+                "phones": [
+                  "(212) 758-0040"
+                ],
+                "rawPhones": [
+                  "2127580040"
+                ],
+                "dailyOfficeHours": {
+                  "openHours": [
+                    {
+                      "dayOfTheWeek": "Mon",
+                      "open": "8:00 AM",
+                      "close": "5:00 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Tue",
+                      "open": "8:00 AM",
+                      "close": "5:00 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Wed",
+                      "open": "8:00 AM",
+                      "close": "5:00 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Thu",
+                      "open": "8:00 AM",
+                      "close": "5:00 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Fri",
+                      "open": "8:00 AM",
+                      "close": "5:00 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Sat",
+                      "open": "8:00 AM",
+                      "close": "1:00 PM"
+                    }
+                  ]
+                },
+                "providerLocationId": "422320",
+                "county": "New York County",
+                "specialties": [
+                  {
+                    "code": "OR",
+                    "description": "Orthodontics"
+                  }
+                ],
+                "contractEffectiveDate": "12/31/9999",
+                "contractExpirationDate": "12/31/9999",
+                "brighterMatch": {
+                  "technologies": [
+                    "Digital X-Rays",
+                    "Panoramic X-Rays",
+                    "Invisalign/Clear Aligners"
+                  ],
+                  "amenities": [
+                    "Children's Area/Toys",
+                    "Enclosed Operatory",
+                    "Complimentary Snacks/Beverages",
+                    "Wi-Fi Access",
+                    "Special Needs Care (SHCN)"
+                  ],
+                  "otherSurveys": {
+                    "surveyScore": {
+                      "no": "0",
+                      "total": "0",
+                      "yes": "0"
+                    }
+                  },
+                  "providerSurveys": {
+                    "surveyScore": {
+                      "no": "0",
+                      "total": "11",
+                      "yes": "11"
+                    }
+                  },
+                  "officeHours": [
+                    {
+                      "dayOfWeek": "Monday",
+                      "closeTime": "17:00:00",
+                      "openTime": "08:00:00"
+                    },
+                    {
+                      "dayOfWeek": "Tuesday",
+                      "closeTime": "17:00:00",
+                      "openTime": "08:00:00"
+                    },
+                    {
+                      "dayOfWeek": "Wednesday",
+                      "closeTime": "17:00:00",
+                      "openTime": "08:00:00"
+                    },
+                    {
+                      "dayOfWeek": "Thursday",
+                      "closeTime": "17:00:00",
+                      "openTime": "08:00:00"
+                    },
+                    {
+                      "dayOfWeek": "Friday",
+                      "closeTime": "17:00:00",
+                      "openTime": "08:00:00"
+                    },
+                    {
+                      "dayOfWeek": "Saturday",
+                      "closeTime": "13:00:00",
+                      "openTime": "08:00:00"
+                    }
+                  ],
+                  "licenseInfo": [
+                    {
+                      "number": "019030585",
+                      "action": "false",
+                      "state": "IL",
+                      "type": "LICENSED DENTIST",
+                      "status": "ACTIVE"
+                    },
+                    {
+                      "number": "059708",
+                      "action": "false",
+                      "state": "NY",
+                      "type": "DENTISTRY",
+                      "status": "ACTIVE"
+                    }
+                  ],
+                  "brighterOverallScore": {
+                    "score": "7.8"
+                  },
+                  "brighterAffordabilityScore": {
+                    "score": "4.7",
+                    "description": "Average Prices"
+                  },
+                  "brighterProfessionalHistoryScore": {
+                    "score": "9.7",
+                    "description": "9 years"
+                  },
+                  "brighterPatientExperienceScore": {
+                    "score": "9.9",
+                    "description": "11 Reviews"
+                  },
+                  "providerExperienceStartDate": "2016-04-04"
+                },
+                "brighterScore": {
+                  "patientExperienceScoreDesc": "11 Reviews"
+                },
+                "pharmacy90DayCoverageIndicator": false,
+                "weekendOpenIndicator": "Y",
+                "reportInaccuraciesMessageCode": "NYD0001",
+                "acceptingNewPatientCode": "Y",
+                "contractId": [
+                  "H7849150000"
+                ],
+                "hvpdIndicator": "N",
+                "formattedAddressDetails": "15 Harrison Street, New York, NY, 10013",
+                "formattedAddressResults": "15 Harrison Street New York, NY 10013",
+                "adaAccessibleIndicator": "Y",
+                "networkName": "ADVANTAGE",
+                "networkTierCode": "1",
+                "ngdDetails": [
+                  {
+                    "providerDentalOfficeID": "422320",
+                    "providerDentalOfficeName": "Bronsky Orthodontics",
+                    "allowNgdSelectionForCurrentCustomers": false,
+                    "acceptingNewPatientIndicator": "Y",
+                    "allowNgdSelectionIndicator": false
+                  }
+                ],
+                "allowNgdSelectionIndicator": false,
+                "participatingProducts": []
+              }
+            ],
+            "specialties": [
+              {
+                "code": "OR",
+                "description": "Orthodontics",
+                "boardCertificationFlag": "Y"
+              }
+            ],
+            "geoCodesAvailableIndicator": true,
+            "genderCode": "F",
+            "yearsOfExperience": "11"
+          },
+          {
+            "complianceMessages": [],
+            "name": "David C. Hou, DDS",
+            "firstName": "David",
+            "lastName": "Hou",
+            "middleInitial": "C",
+            "typeCode": "D",
+            "typeDescription": "Dental",
+            "groupCode": "D",
+            "groupDescription": "Dentists",
+            "providerId": "0170700",
+            "age": "68",
+            "emailAddress": "chelsea@souldentalnyc.com",
+            "schools": [
+              {
+                "name": "Northwestern University",
+                "graduationYear": "1988"
+              }
+            ],
+            "languages": [
+              {
+                "code": "AR",
+                "description": "Arabic"
+              },
+              {
+                "code": "CH",
+                "description": "Chinese"
+              },
+              {
+                "code": "FA",
+                "description": "Farsi"
+              },
+              {
+                "code": "FR",
+                "description": "French"
+              },
+              {
+                "code": "HI",
+                "description": "Hindi"
+              },
+              {
+                "code": "KO",
+                "description": "Korean"
+              },
+              {
+                "code": "RU",
+                "description": "Russian"
+              },
+              {
+                "code": "SP",
+                "description": "Spanish"
+              }
+            ],
+            "brighterProfileImageThumbNailURL": "https://p-practice-media-static.digitaledge.cigna.com/provider_pxtwsbbn74030647__portal_jrhg_medium.png",
+            "nationalProviderIds": [
+              "1659583151"
+            ],
+            "displayNationalProviderId": "1659583151",
+            "degrees": [
+              "DDS"
+            ],
+            "locationCount": "12",
+            "locations": [
+              {
+                "reportInacurraciesIndicator": "Y",
+                "tpvAffiliationIndicator": "N",
+                "locationId": "582282",
+                "streetName": "200 W 15th St",
+                "addressLine2": "Ste 1A",
+                "city": "New York",
+                "zipCode": "10011",
+                "stateCode": "NY",
+                "geoCode": {
+                  "latitude": "40.739188",
+                  "longitude": "-73.999426"
+                },
+                "latitude": "40.739188",
+                "longitude": "-73.999426",
+                "locationDistance": "1.8",
+                "facilityName": "Soul Dental Chelsea",
+                "facilityId": "582282",
+                "acceptingNewPatientIndicator": "Y",
+                "phones": [
+                  "(212) 201-0766"
+                ],
+                "rawPhones": [
+                  "2122010766"
+                ],
+                "dailyOfficeHours": {
+                  "openHours": [
+                    {
+                      "dayOfTheWeek": "Mon",
+                      "open": "9:00 AM",
+                      "close": "7:00 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Tue",
+                      "open": "9:00 AM",
+                      "close": "7:00 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Wed",
+                      "open": "9:00 AM",
+                      "close": "7:00 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Thu",
+                      "open": "9:00 AM",
+                      "close": "7:00 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Fri",
+                      "open": "9:00 AM",
+                      "close": "7:00 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Sat",
+                      "open": "9:00 AM",
+                      "close": "4:00 PM"
+                    }
+                  ]
+                },
+                "providerLocationId": "582282",
+                "county": "New York",
+                "specialties": [
+                  {
+                    "code": "OR",
+                    "description": "Orthodontics"
+                  }
+                ],
+                "contractEffectiveDate": "12/31/9999",
+                "contractExpirationDate": "12/31/9999",
+                "brighterMatch": {
+                  "associations": [
+                    "American Dental Association",
+                    "American Association Of Orthodontists",
+                    "​Suffolk County Dental Society​"
+                  ],
+                  "technologies": [
+                    "Digital X-Rays",
+                    "Intra-Oral Camera",
+                    "CT Scanner",
+                    "Panoramic X-Rays",
+                    "Invisalign/Clear Aligners"
+                  ],
+                  "education": [
+                    {
+                      "institution": "Rice University",
+                      "degreeType": "BS"
+                    },
+                    {
+                      "institution": "Northwestern University",
+                      "degreeType": "DDS"
+                    },
+                    {
+                      "institution": "University of Michigan",
+                      "degreeType": "MS"
+                    }
+                  ],
+                  "otherSurveys": {
+                    "surveyScore": {
+                      "no": "15",
+                      "total": "244",
+                      "yes": "229"
+                    }
+                  },
+                  "galleryPhotos": [
+                    "https://p-practice-media-static.digitaledge.cigna.com/practice_326035_Alexandre Yunguson_mapstreetview_llMF.png"
+                  ],
+                  "providerSurveys": {
+                    "surveyScore": {
+                      "no": "1",
+                      "total": "4",
+                      "yes": "3"
+                    }
+                  },
+                  "officeHours": [
+                    {
+                      "dayOfWeek": "Monday",
+                      "closeTime": "19:00:00",
+                      "openTime": "09:00:00"
+                    },
+                    {
+                      "dayOfWeek": "Tuesday",
+                      "closeTime": "19:00:00",
+                      "openTime": "09:00:00"
+                    },
+                    {
+                      "dayOfWeek": "Wednesday",
+                      "closeTime": "19:00:00",
+                      "openTime": "09:00:00"
+                    },
+                    {
+                      "dayOfWeek": "Thursday",
+                      "closeTime": "19:00:00",
+                      "openTime": "09:00:00"
+                    },
+                    {
+                      "dayOfWeek": "Friday",
+                      "closeTime": "19:00:00",
+                      "openTime": "09:00:00"
+                    },
+                    {
+                      "dayOfWeek": "Saturday",
+                      "closeTime": "16:00:00",
+                      "openTime": "09:00:00"
+                    }
+                  ],
+                  "licenseInfo": [
+                    {
+                      "number": "045737",
+                      "action": "false",
+                      "state": "NY",
+                      "type": "DENTISTRY",
+                      "status": "ACTIVE"
+                    }
+                  ],
+                  "brighterOverallScore": {
+                    "score": "7.8"
+                  },
+                  "brighterAffordabilityScore": {
+                    "score": "5.7",
+                    "description": "Average Prices"
+                  },
+                  "brighterProfessionalHistoryScore": {
+                    "score": "10.0",
+                    "description": "31 years"
+                  },
+                  "brighterPatientExperienceScore": {
+                    "score": "8.5",
+                    "description": "248 Reviews"
+                  },
+                  "providerExperienceStartDate": "1995-01-12"
+                },
+                "brighterScore": {
+                  "patientExperienceScoreDesc": "248 Reviews"
+                },
+                "pharmacy90DayCoverageIndicator": false,
+                "weekendOpenIndicator": "Y",
+                "reportInaccuraciesMessageCode": "NYD0001",
+                "acceptingNewPatientCode": "Y",
+                "contractId": [
+                  "H7849150000"
+                ],
+                "hvpdIndicator": "N",
+                "formattedAddressDetails": "200 W 15th St, New York, NY, 10011",
+                "formattedAddressResults": "200 W 15th St New York, NY 10011",
+                "adaAccessibleIndicator": "Y",
+                "networkName": "ADVANTAGE",
+                "networkTierCode": "1",
+                "ngdDetails": [
+                  {
+                    "providerDentalOfficeID": "582282",
+                    "providerDentalOfficeName": "Soul Dental Chelsea",
+                    "allowNgdSelectionForCurrentCustomers": false,
+                    "acceptingNewPatientIndicator": "Y",
+                    "allowNgdSelectionIndicator": false
+                  }
+                ],
+                "allowNgdSelectionIndicator": false,
+                "participatingProducts": []
+              }
+            ],
+            "specialties": [
+              {
+                "code": "OR",
+                "description": "Orthodontics",
+                "boardCertificationFlag": "N"
+              }
+            ],
+            "geoCodesAvailableIndicator": true,
+            "genderCode": "M",
+            "yearsOfExperience": "38"
+          },
+          {
+            "complianceMessages": [],
+            "name": "Seung H. Yoon, DDS",
+            "firstName": "Seung",
+            "lastName": "Yoon",
+            "middleInitial": "H",
+            "typeCode": "D",
+            "typeDescription": "Dental",
+            "groupCode": "D",
+            "groupDescription": "Dentists",
+            "providerId": "0434934",
+            "age": "40",
+            "emailAddress": "dr.heifitz@65broadwaydental.com",
+            "schools": [
+              {
+                "name": "NYU College of Dentistry",
+                "graduationYear": "2015"
+              }
+            ],
+            "languages": [
+              {
+                "code": "KO",
+                "description": "Korean"
+              }
+            ],
+            "nationalProviderIds": [
+              "1295357226"
+            ],
+            "displayNationalProviderId": "1295357226",
+            "degrees": [
+              "DDS"
+            ],
+            "locationCount": "4",
+            "locations": [
+              {
+                "reportInacurraciesIndicator": "Y",
+                "tpvAffiliationIndicator": "N",
+                "locationId": "246145",
+                "streetName": "65 Broadway",
+                "addressLine2": "Ste 408",
+                "city": "New York",
+                "zipCode": "10006",
+                "stateCode": "NY",
+                "geoCode": {
+                  "latitude": "40.707213",
+                  "longitude": "-74.012361"
+                },
+                "latitude": "40.707213",
+                "longitude": "-74.012361",
+                "locationDistance": "0.5",
+                "facilityName": "Heifitz Alexander",
+                "facilityId": "246145",
+                "acceptingNewPatientIndicator": "Y",
+                "phones": [
+                  "(212) 430-3888"
+                ],
+                "rawPhones": [
+                  "2124303888"
+                ],
+                "dailyOfficeHours": {
+                  "openHours": [
+                    {
+                      "dayOfTheWeek": "Mon",
+                      "open": "9:00 AM",
+                      "close": "6:00 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Tue",
+                      "open": "9:00 AM",
+                      "close": "6:00 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Wed",
+                      "open": "9:00 AM",
+                      "close": "6:00 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Thu",
+                      "open": "9:00 AM",
+                      "close": "6:00 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Fri",
+                      "open": "9:00 AM",
+                      "close": "6:00 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Sat",
+                      "open": "9:00 AM",
+                      "close": "3:00 PM"
+                    }
+                  ]
+                },
+                "providerLocationId": "246145",
+                "county": "New York",
+                "specialties": [
+                  {
+                    "code": "OR",
+                    "description": "Orthodontics"
+                  }
+                ],
+                "contractEffectiveDate": "12/31/9999",
+                "contractExpirationDate": "12/31/9999",
+                "brighterMatch": {
+                  "technologies": [
+                    "CEREC/In-Office Crowns",
+                    "Ultrasonic Scaling",
+                    "Digital X-Rays",
+                    "Intra-Oral Camera",
+                    "3D Imaging System",
+                    "CT Scanner",
+                    "Invisalign/Clear Aligners"
+                  ],
+                  "amenities": [
+                    "Wi-Fi Access"
+                  ],
+                  "otherSurveys": {
+                    "surveyScore": {
+                      "no": "47",
+                      "total": "134",
+                      "yes": "87"
+                    }
+                  },
+                  "galleryPhotos": [
+                    "https://p-practice-media-static.digitaledge.cigna.com/practice_jmhjhfsd13103407__portal_mjdy.jpg",
+                    "https://p-practice-media-static.digitaledge.cigna.com/practice_jmhjhfsd13103407__portal_irxf.jpg",
+                    "https://p-practice-media-static.digitaledge.cigna.com/practice_jmhjhfsd13103407__portal_spib.jpg",
+                    "https://p-practice-media-static.digitaledge.cigna.com/practice_jmhjhfsd13103407__portal_issx.jpg"
+                  ],
+                  "providerSurveys": {
+                    "surveyScore": {
+                      "no": "0",
+                      "total": "0",
+                      "yes": "0"
+                    }
+                  },
+                  "officeHours": [
+                    {
+                      "dayOfWeek": "Monday",
+                      "closeTime": "18:00:00",
+                      "openTime": "09:00:00"
+                    },
+                    {
+                      "dayOfWeek": "Tuesday",
+                      "closeTime": "18:00:00",
+                      "openTime": "09:00:00"
+                    },
+                    {
+                      "dayOfWeek": "Wednesday",
+                      "closeTime": "18:00:00",
+                      "openTime": "09:00:00"
+                    },
+                    {
+                      "dayOfWeek": "Thursday",
+                      "closeTime": "18:00:00",
+                      "openTime": "09:00:00"
+                    },
+                    {
+                      "dayOfWeek": "Friday",
+                      "closeTime": "18:00:00",
+                      "openTime": "09:00:00"
+                    },
+                    {
+                      "dayOfWeek": "Saturday",
+                      "closeTime": "15:00:00",
+                      "openTime": "09:00:00"
+                    }
+                  ],
+                  "licenseInfo": [
+                    {
+                      "number": "DD5270",
+                      "action": "false",
+                      "state": "NM",
+                      "type": "Dentist",
+                      "status": "INACTIVE"
+                    },
+                    {
+                      "number": "22DI02873500",
+                      "action": "false",
+                      "state": "NJ",
+                      "type": "Dentist",
+                      "status": "ACTIVE"
+                    },
+                    {
+                      "number": "062302",
+                      "action": "false",
+                      "state": "NY",
+                      "type": "DENTISTRY",
+                      "status": "ACTIVE"
+                    }
+                  ],
+                  "brighterOverallScore": {
+                    "score": "7.7"
+                  },
+                  "brighterAffordabilityScore": {
+                    "score": "6.8",
+                    "description": "Good Prices"
+                  },
+                  "brighterProfessionalHistoryScore": {
+                    "score": "8.5",
+                    "description": "5 years"
+                  },
+                  "brighterPatientExperienceScore": {
+                    "description": "Insufficient Data"
+                  },
+                  "providerExperienceStartDate": "2020-05-28"
+                },
+                "brighterScore": {
+                  "patientExperienceScoreDesc": "Insufficient Data"
+                },
+                "pharmacy90DayCoverageIndicator": false,
+                "weekendOpenIndicator": "Y",
+                "reportInaccuraciesMessageCode": "NYD0001",
+                "acceptingNewPatientCode": "Y",
+                "contractId": [
+                  "H7849150000"
+                ],
+                "hvpdIndicator": "N",
+                "formattedAddressDetails": "65 Broadway, New York, NY, 10006",
+                "formattedAddressResults": "65 Broadway New York, NY 10006",
+                "adaAccessibleIndicator": "Y",
+                "networkName": "ADVANTAGE",
+                "networkTierCode": "1",
+                "ngdDetails": [
+                  {
+                    "providerDentalOfficeID": "246145",
+                    "providerDentalOfficeName": "Heifitz Alexander",
+                    "allowNgdSelectionForCurrentCustomers": false,
+                    "acceptingNewPatientIndicator": "Y",
+                    "allowNgdSelectionIndicator": false
+                  }
+                ],
+                "allowNgdSelectionIndicator": false,
+                "participatingProducts": []
+              }
+            ],
+            "specialties": [
+              {
+                "code": "OR",
+                "description": "Orthodontics",
+                "boardCertificationFlag": "N"
+              }
+            ],
+            "geoCodesAvailableIndicator": true,
+            "genderCode": "M",
+            "yearsOfExperience": "11"
+          },
+          {
+            "complianceMessages": [],
+            "name": "Sable Staller, DDS",
+            "firstName": "Sable",
+            "lastName": "Staller",
+            "typeCode": "D",
+            "typeDescription": "Dental",
+            "groupCode": "D",
+            "groupDescription": "Dentists",
+            "providerId": "0440672",
+            "age": "32",
+            "emailAddress": "info@foresthillsorthodontics.com",
+            "schools": [
+              {
+                "name": "Indiana University",
+                "graduationYear": "2021"
+              }
+            ],
+            "nationalProviderIds": [
+              "1811638356"
+            ],
+            "displayNationalProviderId": "1811638356",
+            "degrees": [
+              "DDS"
+            ],
+            "locationCount": "3",
+            "locations": [
+              {
+                "reportInacurraciesIndicator": "Y",
+                "tpvAffiliationIndicator": "N",
+                "locationId": "748297",
+                "streetName": "50 Clinton Street",
+                "city": "New York",
+                "zipCode": "10002",
+                "stateCode": "NY",
+                "geoCode": {
+                  "latitude": "40.7194596",
+                  "longitude": "-73.9847871"
+                },
+                "latitude": "40.7194596",
+                "longitude": "-73.9847871",
+                "locationDistance": "1.3",
+                "facilityName": "Straight Set Orthodontics",
+                "facilityId": "748297",
+                "acceptingNewPatientIndicator": "Y",
+                "phones": [
+                  "(212) 475-0051"
+                ],
+                "rawPhones": [
+                  "2124750051"
+                ],
+                "dailyOfficeHours": {
+                  "openHours": [
+                    {
+                      "dayOfTheWeek": "Mon",
+                      "open": "9:00 AM",
+                      "close": "5:30 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Wed",
+                      "open": "9:00 AM",
+                      "close": "5:30 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Fri",
+                      "open": "9:00 AM",
+                      "close": "5:30 PM"
+                    }
+                  ]
+                },
+                "providerLocationId": "748297",
+                "county": "New York County",
+                "specialties": [
+                  {
+                    "code": "OR",
+                    "description": "Orthodontics"
+                  }
+                ],
+                "contractEffectiveDate": "12/31/9999",
+                "contractExpirationDate": "12/31/9999",
+                "brighterMatch": {
+                  "otherSurveys": {
+                    "surveyScore": {
+                      "no": "0",
+                      "total": "0",
+                      "yes": "0"
+                    }
+                  },
+                  "providerSurveys": {
+                    "surveyScore": {
+                      "no": "0",
+                      "total": "0",
+                      "yes": "0"
+                    }
+                  },
+                  "licenseInfo": [
+                    {
+                      "number": "062213",
+                      "action": "false",
+                      "state": "NY",
+                      "type": "DENTISTRY",
+                      "status": "ACTIVE"
+                    }
+                  ],
+                  "brighterOverallScore": {
+                    "score": "7.6"
+                  },
+                  "brighterAffordabilityScore": {
+                    "score": "7.9",
+                    "description": "Good Prices"
+                  },
+                  "brighterProfessionalHistoryScore": {
+                    "score": "7.4",
+                    "description": "4 years"
+                  },
+                  "brighterPatientExperienceScore": {
+                    "description": "Insufficient Data"
+                  },
+                  "providerExperienceStartDate": "2021-11-29"
+                },
+                "brighterScore": {
+                  "patientExperienceScoreDesc": "Insufficient Data"
+                },
+                "pharmacy90DayCoverageIndicator": false,
+                "weekendOpenIndicator": "N",
+                "reportInaccuraciesMessageCode": "NYD0001",
+                "acceptingNewPatientCode": "Y",
+                "hvpdIndicator": "N",
+                "formattedAddressDetails": "50 Clinton Street, New York, NY, 10002",
+                "formattedAddressResults": "50 Clinton Street New York, NY 10002",
+                "adaAccessibleIndicator": "Y",
+                "networkName": "ADVANTAGE",
+                "networkTierCode": "1",
+                "ngdDetails": [
+                  {
+                    "providerDentalOfficeID": "748297",
+                    "providerDentalOfficeName": "Straight Set Orthodontics",
+                    "allowNgdSelectionForCurrentCustomers": false,
+                    "acceptingNewPatientIndicator": "Y",
+                    "allowNgdSelectionIndicator": false
+                  }
+                ],
+                "allowNgdSelectionIndicator": false,
+                "participatingProducts": []
+              }
+            ],
+            "specialties": [
+              {
+                "code": "OR",
+                "description": "Orthodontics",
+                "boardCertificationFlag": "N"
+              }
+            ],
+            "geoCodesAvailableIndicator": true,
+            "genderCode": "F",
+            "yearsOfExperience": "5"
+          },
+          {
+            "complianceMessages": [],
+            "name": "Halle B. Schaf, DDS",
+            "firstName": "Halle",
+            "lastName": "Schaf",
+            "middleInitial": "B",
+            "typeCode": "D",
+            "typeDescription": "Dental",
+            "groupCode": "D",
+            "groupDescription": "Dentists",
+            "providerId": "0435213",
+            "age": "30",
+            "emailAddress": "billing@diamondbraces.com",
+            "schools": [
+              {
+                "name": "Columbia University",
+                "graduationYear": "2021"
+              }
+            ],
+            "languages": [
+              {
+                "code": "PO",
+                "description": "Polish"
+              },
+              {
+                "code": "RU",
+                "description": "Russian"
+              },
+              {
+                "code": "SP",
+                "description": "Spanish"
+              }
+            ],
+            "nationalProviderIds": [
+              "1023728755"
+            ],
+            "displayNationalProviderId": "1023728755",
+            "degrees": [
+              "DDS"
+            ],
+            "locationCount": "10",
+            "locations": [
+              {
+                "reportInacurraciesIndicator": "Y",
+                "tpvAffiliationIndicator": "N",
+                "locationId": "679925",
+                "streetName": "97 E 4th St",
+                "city": "New York",
+                "zipCode": "10003",
+                "stateCode": "NY",
+                "geoCode": {
+                  "latitude": "40.726056",
+                  "longitude": "-73.988739"
+                },
+                "latitude": "40.726056",
+                "longitude": "-73.988739",
+                "locationDistance": "1.3",
+                "facilityName": "Washington Heights Orthodontic",
+                "facilityId": "679925",
+                "acceptingNewPatientIndicator": "Y",
+                "phones": [
+                  "(212) 292-3848"
+                ],
+                "rawPhones": [
+                  "2122923848"
+                ],
+                "dailyOfficeHours": {
+                  "openHours": [
+                    {
+                      "dayOfTheWeek": "Mon",
+                      "open": "11:00 AM",
+                      "close": "7:00 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Tue",
+                      "open": "10:00 AM",
+                      "close": "6:00 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Wed",
+                      "open": "10:00 AM",
+                      "close": "6:00 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Thu",
+                      "open": "11:00 AM",
+                      "close": "7:00 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Fri",
+                      "open": "9:00 AM",
+                      "close": "5:00 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Sat",
+                      "open": "9:00 AM",
+                      "close": "4:00 PM"
+                    }
+                  ]
+                },
+                "providerLocationId": "679925",
+                "county": "New York",
+                "specialties": [
+                  {
+                    "code": "OR",
+                    "description": "Orthodontics"
+                  }
+                ],
+                "contractEffectiveDate": "12/31/9999",
+                "contractExpirationDate": "12/31/9999",
+                "brighterMatch": {
+                  "otherSurveys": {
+                    "surveyScore": {
+                      "no": "1",
+                      "total": "7",
+                      "yes": "6"
+                    }
+                  },
+                  "providerSurveys": {
+                    "surveyScore": {
+                      "no": "0",
+                      "total": "0",
+                      "yes": "0"
+                    }
+                  },
+                  "licenseInfo": [
+                    {
+                      "number": "063434",
+                      "action": "false",
+                      "state": "NY",
+                      "type": "DENTISTRY",
+                      "status": "ACTIVE"
+                    },
+                    {
+                      "number": "DN27622",
+                      "action": "false",
+                      "state": "FL",
+                      "type": "DENTIST",
+                      "status": "ACTIVE"
+                    }
+                  ],
+                  "brighterOverallScore": {
+                    "score": "7.6"
+                  },
+                  "brighterAffordabilityScore": {
+                    "score": "9.3",
+                    "description": "Great Prices"
+                  },
+                  "brighterProfessionalHistoryScore": {
+                    "score": "5.5",
+                    "description": "2 years"
+                  },
+                  "brighterPatientExperienceScore": {
+                    "description": "Insufficient Data"
+                  },
+                  "providerExperienceStartDate": "2023-08-29"
+                },
+                "brighterScore": {
+                  "patientExperienceScoreDesc": "Insufficient Data"
+                },
+                "pharmacy90DayCoverageIndicator": false,
+                "weekendOpenIndicator": "Y",
+                "reportInaccuraciesMessageCode": "NYD0001",
+                "acceptingNewPatientCode": "Y",
+                "contractId": [
+                  "H7849150000"
+                ],
+                "hvpdIndicator": "N",
+                "formattedAddressDetails": "97 E 4th St, New York, NY, 10003",
+                "formattedAddressResults": "97 E 4th St New York, NY 10003",
+                "adaAccessibleIndicator": "Y",
+                "networkName": "ADVANTAGE",
+                "networkTierCode": "1",
+                "ngdDetails": [
+                  {
+                    "providerDentalOfficeID": "679925",
+                    "providerDentalOfficeName": "Washington Heights Orthodontic",
+                    "allowNgdSelectionForCurrentCustomers": false,
+                    "acceptingNewPatientIndicator": "Y",
+                    "allowNgdSelectionIndicator": false
+                  }
+                ],
+                "allowNgdSelectionIndicator": false,
+                "participatingProducts": []
+              }
+            ],
+            "specialties": [
+              {
+                "code": "OR",
+                "description": "Orthodontics",
+                "boardCertificationFlag": "N"
+              }
+            ],
+            "geoCodesAvailableIndicator": true,
+            "genderCode": "F",
+            "yearsOfExperience": "5"
+          },
+          {
+            "complianceMessages": [],
+            "name": "Deepa Ramasamy, DMD",
+            "firstName": "Deepa",
+            "lastName": "Ramasamy",
+            "typeCode": "D",
+            "typeDescription": "Dental",
+            "groupCode": "D",
+            "groupDescription": "Dentists",
+            "providerId": "0429306",
+            "age": "37",
+            "emailAddress": "info@hightsortho.com",
+            "schools": [
+              {
+                "name": "University of Pennsylania",
+                "graduationYear": "2014"
+              }
+            ],
+            "languages": [
+              {
+                "code": "PO",
+                "description": "Polish"
+              },
+              {
+                "code": "RU",
+                "description": "Russian"
+              },
+              {
+                "code": "SP",
+                "description": "Spanish"
+              },
+              {
+                "code": "TM",
+                "description": "Tamil"
+              }
+            ],
+            "nationalProviderIds": [
+              "1093123572"
+            ],
+            "displayNationalProviderId": "1093123572",
+            "degrees": [
+              "DMD"
+            ],
+            "locationCount": "8",
+            "locations": [
+              {
+                "reportInacurraciesIndicator": "Y",
+                "tpvAffiliationIndicator": "N",
+                "locationId": "797815",
+                "streetName": "121 Newark Avenue",
+                "addressLine2": "501",
+                "city": "Jersey City",
+                "zipCode": "07302",
+                "stateCode": "NJ",
+                "geoCode": {
+                  "latitude": "40.7200168",
+                  "longitude": "-74.04317209999999"
+                },
+                "latitude": "40.7200168",
+                "longitude": "-74.04317209999999",
+                "locationDistance": "1.8",
+                "facilityName": "Heights Orthodontics",
+                "facilityId": "797815",
+                "acceptingNewPatientIndicator": "Y",
+                "phones": [
+                  "(201) 975-4300"
+                ],
+                "rawPhones": [
+                  "2019754300"
+                ],
+                "dailyOfficeHours": {},
+                "providerLocationId": "797815",
+                "county": "Hudson County",
+                "specialties": [
+                  {
+                    "code": "OR",
+                    "description": "Orthodontics"
+                  }
+                ],
+                "contractEffectiveDate": "12/31/9999",
+                "contractExpirationDate": "12/31/9999",
+                "brighterMatch": {
+                  "otherSurveys": {
+                    "surveyScore": {
+                      "no": "0",
+                      "total": "0",
+                      "yes": "0"
+                    }
+                  },
+                  "providerSurveys": {
+                    "surveyScore": {
+                      "no": "0",
+                      "total": "1",
+                      "yes": "1"
+                    }
+                  },
+                  "licenseInfo": [
+                    {
+                      "number": "DS040079",
+                      "action": "false",
+                      "state": "PA",
+                      "type": "Dentistry",
+                      "status": "INACTIVE"
+                    }
+                  ],
+                  "brighterOverallScore": {
+                    "score": "7.6"
+                  },
+                  "brighterAffordabilityScore": {
+                    "score": "5.5",
+                    "description": "Average Prices"
+                  },
+                  "brighterProfessionalHistoryScore": {
+                    "score": "9.8",
+                    "description": "11 years"
+                  },
+                  "brighterPatientExperienceScore": {
+                    "score": "8.2",
+                    "description": "1 Review"
+                  },
+                  "providerExperienceStartDate": "2014-06-26"
+                },
+                "brighterScore": {
+                  "patientExperienceScoreDesc": "1 Review"
+                },
+                "pharmacy90DayCoverageIndicator": false,
+                "weekendOpenIndicator": "N",
+                "reportInaccuraciesMessageCode": "NJD0001",
+                "acceptingNewPatientCode": "Y",
+                "hvpdIndicator": "N",
+                "formattedAddressDetails": "121 Newark Avenue, Jersey City, NJ, 07302",
+                "formattedAddressResults": "121 Newark Avenue Jersey City, NJ 07302",
+                "adaAccessibleIndicator": "Y",
+                "networkName": "ADVANTAGE",
+                "networkTierCode": "1",
+                "ngdDetails": [
+                  {
+                    "providerDentalOfficeID": "797815",
+                    "providerDentalOfficeName": "Heights Orthodontics",
+                    "allowNgdSelectionForCurrentCustomers": false,
+                    "acceptingNewPatientIndicator": "Y",
+                    "allowNgdSelectionIndicator": false
+                  }
+                ],
+                "allowNgdSelectionIndicator": false,
+                "participatingProducts": []
+              }
+            ],
+            "specialties": [
+              {
+                "code": "OR",
+                "description": "Orthodontics",
+                "boardCertificationFlag": "N"
+              }
+            ],
+            "geoCodesAvailableIndicator": true,
+            "genderCode": "F",
+            "yearsOfExperience": "12"
+          },
+          {
+            "complianceMessages": [],
+            "name": "Susan R. Kolin-Liebman, DMD",
+            "firstName": "Susan",
+            "lastName": "Kolin-Liebman",
+            "middleInitial": "R",
+            "typeCode": "D",
+            "typeDescription": "Dental",
+            "groupCode": "D",
+            "groupDescription": "Dentists",
+            "providerId": "0243999",
+            "age": "65",
+            "emailAddress": "info@brooklyn-orthodontist.com",
+            "schools": [
+              {
+                "name": "Farleigh Dickinson U",
+                "graduationYear": "1986"
+              }
+            ],
+            "brighterProfileImageThumbNailURL": "https://p-practice-media-static.digitaledge.cigna.com/provider_vroxakaq12481855__portal_xjrq_medium.png",
+            "nationalProviderIds": [
+              "1700959756"
+            ],
+            "displayNationalProviderId": "1700959756",
+            "degrees": [
+              "DMD"
+            ],
+            "locationCount": "1",
+            "locations": [
+              {
+                "reportInacurraciesIndicator": "Y",
+                "tpvAffiliationIndicator": "N",
+                "locationId": "146127",
+                "streetName": "185 Montague St",
+                "addressLine2": "Fl 8",
+                "city": "Brooklyn",
+                "zipCode": "11201",
+                "stateCode": "NY",
+                "geoCode": {
+                  "latitude": "40.694307",
+                  "longitude": "-73.991978"
+                },
+                "latitude": "40.694307",
+                "longitude": "-73.991978",
+                "locationDistance": "1.6",
+                "facilityName": "Brooklyn Heights Orthodontics",
+                "facilityId": "146127",
+                "acceptingNewPatientIndicator": "Y",
+                "phones": [
+                  "(718) 622-6741"
+                ],
+                "rawPhones": [
+                  "7186226741"
+                ],
+                "dailyOfficeHours": {
+                  "openHours": [
+                    {
+                      "dayOfTheWeek": "Mon",
+                      "open": "9:00 AM",
+                      "close": "5:00 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Tue",
+                      "open": "8:30 AM",
+                      "close": "5:30 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Wed",
+                      "open": "1:30 PM",
+                      "close": "6:30 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Thu",
+                      "open": "1:00 PM",
+                      "close": "5:30 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Sat",
+                      "open": "8:00 AM",
+                      "close": "1:30 PM"
+                    }
+                  ]
+                },
+                "providerLocationId": "146127",
+                "county": "Kings",
+                "specialties": [
+                  {
+                    "code": "OR",
+                    "description": "Orthodontics"
+                  }
+                ],
+                "contractEffectiveDate": "12/31/9999",
+                "contractExpirationDate": "12/31/9999",
+                "brighterMatch": {
+                  "associations": [
+                    "American Dental Association",
+                    "American Association Of Orthodontists",
+                    "Second District Dental Society",
+                    "Northeastern Society of Orthodontists",
+                    "American Board of Orthodontists"
+                  ],
+                  "technologies": [
+                    "Invisalign/Clear Aligners"
+                  ],
+                  "amenities": [
+                    "Television/Movies"
+                  ],
+                  "education": [
+                    {
+                      "institution": "Fairleigh Dickinson University",
+                      "degreeType": "DDS",
+                      "year": "1986"
+                    },
+                    {
+                      "institution": "Princeton University",
+                      "degreeType": "AS",
+                      "year": "1982"
+                    }
+                  ],
+                  "otherSurveys": {
+                    "surveyScore": {
+                      "no": "0",
+                      "total": "0",
+                      "yes": "0"
+                    }
+                  },
+                  "galleryPhotos": [
+                    "https://p-practice-media-static.digitaledge.cigna.com/practice_251158_drirwinkolinddspc_mapstreetview_sqoc.jpg",
+                    "https://p-practice-media-static.digitaledge.cigna.com/practice_qgynhklv14484264__portal_c245eca5-cbc7-4e9f-8444-91e1e6c1ff0d.jpg"
+                  ],
+                  "providerSurveys": {
+                    "surveyScore": {
+                      "no": "0",
+                      "total": "9",
+                      "yes": "9"
+                    }
+                  },
+                  "officeHours": [
+                    {
+                      "dayOfWeek": "Monday",
+                      "closeTime": "17:00:00",
+                      "openTime": "09:00:00"
+                    },
+                    {
+                      "dayOfWeek": "Tuesday",
+                      "closeTime": "17:30:00",
+                      "openTime": "08:30:00"
+                    },
+                    {
+                      "dayOfWeek": "Wednesday",
+                      "closeTime": "18:30:00",
+                      "openTime": "13:30:00"
+                    },
+                    {
+                      "dayOfWeek": "Thursday",
+                      "closeTime": "17:30:00",
+                      "openTime": "13:00:00"
+                    },
+                    {
+                      "dayOfWeek": "Saturday",
+                      "closeTime": "13:30:00",
+                      "openTime": "08:00:00"
+                    }
+                  ],
+                  "licenseInfo": [
+                    {
+                      "number": "040156",
+                      "action": "false",
+                      "state": "NY",
+                      "type": "DENTISTRY",
+                      "status": "ACTIVE"
+                    }
+                  ],
+                  "brighterOverallScore": {
+                    "score": "7.5"
+                  },
+                  "brighterAffordabilityScore": {
+                    "score": "3.9",
+                    "description": "High Prices"
+                  },
+                  "brighterProfessionalHistoryScore": {
+                    "score": "10.0",
+                    "description": "39 years"
+                  },
+                  "brighterPatientExperienceScore": {
+                    "score": "9.7",
+                    "description": "9 Reviews"
+                  },
+                  "providerExperienceStartDate": "1986-07-16",
+                  "profileBadges": [
+                    {
+                      "url": "https://d3ppyoxr8wczcq.cloudfront.net/images/june2014/IC-experience.svg",
+                      "name": "YEARS OF EXPERIENCE"
+                    }
+                  ]
+                },
+                "brighterScore": {
+                  "patientExperienceScoreDesc": "9 Reviews"
+                },
+                "pharmacy90DayCoverageIndicator": false,
+                "weekendOpenIndicator": "Y",
+                "reportInaccuraciesMessageCode": "NYD0001",
+                "acceptingNewPatientCode": "Y",
+                "contractId": [
+                  "H7849150000"
+                ],
+                "hvpdIndicator": "N",
+                "formattedAddressDetails": "185 Montague St, Brooklyn, NY, 11201",
+                "formattedAddressResults": "185 Montague St Brooklyn, NY 11201",
+                "adaAccessibleIndicator": "Y",
+                "networkName": "ADVANTAGE",
+                "networkTierCode": "1",
+                "ngdDetails": [
+                  {
+                    "providerDentalOfficeID": "146127",
+                    "providerDentalOfficeName": "Brooklyn Heights Orthodontics",
+                    "allowNgdSelectionForCurrentCustomers": false,
+                    "acceptingNewPatientIndicator": "Y",
+                    "allowNgdSelectionIndicator": false
+                  }
+                ],
+                "allowNgdSelectionIndicator": false,
+                "participatingProducts": []
+              }
+            ],
+            "specialties": [
+              {
+                "code": "OR",
+                "description": "Orthodontics",
+                "boardCertificationFlag": "Y"
+              }
+            ],
+            "geoCodesAvailableIndicator": true,
+            "genderCode": "F",
+            "yearsOfExperience": "40"
+          },
+          {
+            "complianceMessages": [],
+            "name": "Michelle Katz, DDS",
+            "firstName": "Michelle",
+            "lastName": "Katz",
+            "typeCode": "D",
+            "typeDescription": "Dental",
+            "groupCode": "D",
+            "groupDescription": "Dentists",
+            "providerId": "0341590",
+            "age": "43",
+            "emailAddress": "info@lavaansmile.com",
+            "schools": [
+              {
+                "name": "New York University",
+                "graduationYear": "2008"
+              }
+            ],
+            "brighterProfileImageThumbNailURL": "https://p-practice-media-static.digitaledge.cigna.com/provider_libpjkkt61587541__portal_26409e13-ca65-499f-a9e2-20229977da51_medium.png",
+            "nationalProviderIds": [
+              "1740651736"
+            ],
+            "displayNationalProviderId": "1740651736",
+            "degrees": [
+              "DDS"
+            ],
+            "locationCount": "2",
+            "locations": [
+              {
+                "reportInacurraciesIndicator": "Y",
+                "tpvAffiliationIndicator": "N",
+                "locationId": "525404",
+                "streetName": "474 Avenue Of The Americas",
+                "city": "New York",
+                "zipCode": "10011",
+                "stateCode": "NY",
+                "geoCode": {
+                  "latitude": "40.735749",
+                  "longitude": "-73.997807"
+                },
+                "latitude": "40.735749",
+                "longitude": "-73.997807",
+                "locationDistance": "1.6",
+                "facilityName": "Lavaan Dental Spa",
+                "facilityId": "525404",
+                "acceptingNewPatientIndicator": "Y",
+                "phones": [
+                  "(212) 837-1833"
+                ],
+                "rawPhones": [
+                  "2128371833"
+                ],
+                "dailyOfficeHours": {
+                  "openHours": [
+                    {
+                      "dayOfTheWeek": "Tue",
+                      "open": "9:00 AM",
+                      "close": "5:00 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Wed",
+                      "open": "9:00 AM",
+                      "close": "5:00 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Thu",
+                      "open": "9:00 AM",
+                      "close": "5:00 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Fri",
+                      "open": "9:00 AM",
+                      "close": "5:00 PM"
+                    }
+                  ]
+                },
+                "providerLocationId": "525404",
+                "county": "New York",
+                "specialties": [
+                  {
+                    "code": "OR",
+                    "description": "Orthodontics"
+                  }
+                ],
+                "contractEffectiveDate": "12/31/9999",
+                "contractExpirationDate": "12/31/9999",
+                "brighterMatch": {
+                  "otherSurveys": {
+                    "surveyScore": {
+                      "no": "1",
+                      "total": "11",
+                      "yes": "10"
+                    }
+                  },
+                  "providerSurveys": {
+                    "surveyScore": {
+                      "no": "0",
+                      "total": "7",
+                      "yes": "7"
+                    }
+                  },
+                  "licenseInfo": [
+                    {
+                      "number": "054392",
+                      "action": "false",
+                      "state": "NY",
+                      "type": "DENTISTRY",
+                      "status": "ACTIVE"
+                    }
+                  ],
+                  "brighterOverallScore": {
+                    "score": "7.4"
+                  },
+                  "brighterAffordabilityScore": {
+                    "score": "4.1",
+                    "description": "Average Prices"
+                  },
+                  "brighterProfessionalHistoryScore": {
+                    "score": "10.0",
+                    "description": "16 years"
+                  },
+                  "brighterPatientExperienceScore": {
+                    "score": "9.3",
+                    "description": "18 Reviews"
+                  },
+                  "providerExperienceStartDate": "2009-07-01"
+                },
+                "brighterScore": {
+                  "patientExperienceScoreDesc": "18 Reviews"
+                },
+                "pharmacy90DayCoverageIndicator": false,
+                "weekendOpenIndicator": "N",
+                "reportInaccuraciesMessageCode": "NYD0001",
+                "acceptingNewPatientCode": "Y",
+                "contractId": [
+                  "H7849150000"
+                ],
+                "hvpdIndicator": "N",
+                "formattedAddressDetails": "474 Avenue Of The Americas, New York, NY, 10011",
+                "formattedAddressResults": "474 Avenue Of The Americas New York, NY 10011",
+                "adaAccessibleIndicator": "Y",
+                "networkName": "ADVANTAGE",
+                "networkTierCode": "1",
+                "ngdDetails": [
+                  {
+                    "providerDentalOfficeID": "525404",
+                    "providerDentalOfficeName": "Lavaan Dental Spa",
+                    "allowNgdSelectionForCurrentCustomers": false,
+                    "acceptingNewPatientIndicator": "Y",
+                    "allowNgdSelectionIndicator": false
+                  }
+                ],
+                "allowNgdSelectionIndicator": false,
+                "participatingProducts": []
+              }
+            ],
+            "specialties": [
+              {
+                "code": "OR",
+                "description": "Orthodontics",
+                "boardCertificationFlag": "Y"
+              }
+            ],
+            "geoCodesAvailableIndicator": true,
+            "genderCode": "F",
+            "yearsOfExperience": "18"
+          },
+          {
+            "complianceMessages": [],
+            "name": "Nishi Garg, DMD",
+            "firstName": "Nishi",
+            "lastName": "Garg",
+            "typeCode": "D",
+            "typeDescription": "Dental",
+            "groupCode": "D",
+            "groupDescription": "Dentists",
+            "providerId": "0381006",
+            "emailAddress": "hello@hellotend.com",
+            "schools": [
+              {
+                "name": "University of Illinois",
+                "graduationYear": "2016"
+              }
+            ],
+            "languages": [
+              {
+                "code": "KO",
+                "description": "Korean"
+              },
+              {
+                "code": "RU",
+                "description": "Russian"
+              },
+              {
+                "code": "SP",
+                "description": "Spanish"
+              }
+            ],
+            "nationalProviderIds": [
+              "1295272441"
+            ],
+            "displayNationalProviderId": "1295272441",
+            "degrees": [
+              "DMD"
+            ],
+            "locationCount": "9",
+            "locations": [
+              {
+                "reportInacurraciesIndicator": "Y",
+                "tpvAffiliationIndicator": "N",
+                "locationId": "787012",
+                "streetName": "24 2nd Avenue",
+                "city": "New York",
+                "zipCode": "10003",
+                "stateCode": "NY",
+                "geoCode": {
+                  "latitude": "40.7244205",
+                  "longitude": "-73.9904924"
+                },
+                "latitude": "40.7244205",
+                "longitude": "-73.9904924",
+                "locationDistance": "1.2",
+                "facilityName": "Tend Dental",
+                "facilityId": "787012",
+                "acceptingNewPatientIndicator": "Y",
+                "phones": [
+                  "(212) 686-3686"
+                ],
+                "rawPhones": [
+                  "2126863686"
+                ],
+                "dailyOfficeHours": {},
+                "providerLocationId": "787012",
+                "county": "New York County",
+                "specialties": [
+                  {
+                    "code": "OR",
+                    "description": "Orthodontics"
+                  }
+                ],
+                "contractEffectiveDate": "12/31/9999",
+                "contractExpirationDate": "12/31/9999",
+                "brighterMatch": {
+                  "otherSurveys": {
+                    "surveyScore": {
+                      "no": "0",
+                      "total": "0",
+                      "yes": "0"
+                    }
+                  },
+                  "providerSurveys": {
+                    "surveyScore": {
+                      "no": "0",
+                      "total": "4",
+                      "yes": "4"
+                    }
+                  },
+                  "licenseInfo": [
+                    {
+                      "number": "019030639",
+                      "action": "false",
+                      "state": "IL",
+                      "type": "LICENSED DENTIST",
+                      "status": "ACTIVE"
+                    },
+                    {
+                      "number": "060642",
+                      "action": "false",
+                      "state": "NY",
+                      "type": "DENTISTRY",
+                      "status": "ACTIVE"
+                    }
+                  ],
+                  "brighterOverallScore": {
+                    "score": "7.3"
+                  },
+                  "brighterAffordabilityScore": {
+                    "score": "4.1",
+                    "description": "Average Prices"
+                  },
+                  "brighterProfessionalHistoryScore": {
+                    "score": "9.7",
+                    "description": "9 years"
+                  },
+                  "brighterPatientExperienceScore": {
+                    "score": "9.0",
+                    "description": "4 Reviews"
+                  },
+                  "providerExperienceStartDate": "2016-05-27"
+                },
+                "brighterScore": {
+                  "patientExperienceScoreDesc": "4 Reviews"
+                },
+                "pharmacy90DayCoverageIndicator": false,
+                "weekendOpenIndicator": "N",
+                "reportInaccuraciesMessageCode": "NYD0001",
+                "acceptingNewPatientCode": "Y",
+                "hvpdIndicator": "N",
+                "formattedAddressDetails": "24 2nd Avenue, New York, NY, 10003",
+                "formattedAddressResults": "24 2nd Avenue New York, NY 10003",
+                "adaAccessibleIndicator": "Y",
+                "networkName": "ADVANTAGE",
+                "networkTierCode": "1",
+                "ngdDetails": [
+                  {
+                    "providerDentalOfficeID": "787012",
+                    "providerDentalOfficeName": "Tend Dental",
+                    "allowNgdSelectionForCurrentCustomers": false,
+                    "acceptingNewPatientIndicator": "Y",
+                    "allowNgdSelectionIndicator": false
+                  }
+                ],
+                "allowNgdSelectionIndicator": false,
+                "participatingProducts": []
+              }
+            ],
+            "specialties": [
+              {
+                "code": "OR",
+                "description": "Orthodontics",
+                "boardCertificationFlag": "N"
+              }
+            ],
+            "geoCodesAvailableIndicator": true,
+            "genderCode": "M",
+            "yearsOfExperience": "10"
+          },
+          {
+            "complianceMessages": [],
+            "name": "Nishi Garg, DMD",
+            "firstName": "Nishi",
+            "lastName": "Garg",
+            "typeCode": "D",
+            "typeDescription": "Dental",
+            "groupCode": "D",
+            "groupDescription": "Dentists",
+            "providerId": "0381006",
+            "emailAddress": "hello@hellotend.com",
+            "schools": [
+              {
+                "name": "University of Illinois",
+                "graduationYear": "2016"
+              }
+            ],
+            "languages": [
+              {
+                "code": "KO",
+                "description": "Korean"
+              },
+              {
+                "code": "RU",
+                "description": "Russian"
+              },
+              {
+                "code": "SP",
+                "description": "Spanish"
+              }
+            ],
+            "nationalProviderIds": [
+              "1295272441"
+            ],
+            "displayNationalProviderId": "1295272441",
+            "degrees": [
+              "DMD"
+            ],
+            "locationCount": "9",
+            "locations": [
+              {
+                "reportInacurraciesIndicator": "Y",
+                "tpvAffiliationIndicator": "N",
+                "locationId": "700127",
+                "streetName": "142 8th Ave",
+                "city": "New York",
+                "zipCode": "10011",
+                "stateCode": "NY",
+                "geoCode": {
+                  "latitude": "40.741498",
+                  "longitude": "-74.001052"
+                },
+                "latitude": "40.741498",
+                "longitude": "-74.001052",
+                "locationDistance": "1.9",
+                "facilityName": "Tend Dental",
+                "facilityId": "700127",
+                "acceptingNewPatientIndicator": "Y",
+                "phones": [
+                  "(212) 686-3686"
+                ],
+                "rawPhones": [
+                  "2126863686"
+                ],
+                "dailyOfficeHours": {
+                  "openHours": [
+                    {
+                      "dayOfTheWeek": "Mon",
+                      "open": "7:00 AM",
+                      "close": "7:00 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Tue",
+                      "open": "7:00 AM",
+                      "close": "7:00 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Wed",
+                      "open": "7:00 AM",
+                      "close": "7:00 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Thu",
+                      "open": "7:00 AM",
+                      "close": "7:00 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Fri",
+                      "open": "7:00 AM",
+                      "close": "7:00 PM"
+                    },
+                    {
+                      "dayOfTheWeek": "Sat",
+                      "open": "8:00 AM",
+                      "close": "4:00 PM"
+                    }
+                  ]
+                },
+                "providerLocationId": "700127",
+                "county": "New York",
+                "specialties": [
+                  {
+                    "code": "OR",
+                    "description": "Orthodontics"
+                  }
+                ],
+                "contractEffectiveDate": "12/31/9999",
+                "contractExpirationDate": "12/31/9999",
+                "brighterMatch": {
+                  "technologies": [
+                    "Ultrasonic Scaling",
+                    "Digital X-Rays",
+                    "Intra-Oral Camera",
+                    "Sedation Dentistry",
+                    "CT Scanner",
+                    "3D Imaging System",
+                    "Invisalign/Clear Aligners",
+                    "Panoramic X-Rays"
+                  ],
+                  "amenities": [
+                    "Personal Headphones",
+                    "Enclosed Operatory",
+                    "Television/Movies",
+                    "Complimentary Snacks/Beverages",
+                    "Wi-Fi Access"
+                  ],
+                  "otherSurveys": {
+                    "surveyScore": {
+                      "no": "32",
+                      "total": "229",
+                      "yes": "197"
+                    }
+                  },
+                  "galleryPhotos": [
+                    "https://practice-media.brighter.com/practice_znxluvnb79567315__portal_1ca83214-bb70-42c9-8793-daed32fdb313.jpg",
+                    "https://practice-media.brighter.com/practice_znxluvnb79567315__portal_41f2cba1-ca9c-4754-a5c4-2c40d6a42274.jpg",
+                    "https://practice-media.brighter.com/practice_znxluvnb79567315__portal_b2b9e4c7-ca9e-4a1b-9640-56703adba79d.jpg",
+                    "https://practice-media.brighter.com/practice_znxluvnb79567315__portal_b8d07f16-8415-41ab-b471-4d1730857ccc.jpg",
+                    "https://practice-media.brighter.com/practice_znxluvnb79567315__portal_1cf2764c-a2cc-4194-9c54-5c0352fa02aa.jpg",
+                    "https://practice-media.brighter.com/practice_znxluvnb79567315__portal_fc085903-7ea2-4929-9d3c-06e534ac5a25.jpg"
+                  ],
+                  "providerSurveys": {
+                    "surveyScore": {
+                      "no": "0",
+                      "total": "4",
+                      "yes": "4"
+                    }
+                  },
+                  "officeHours": [
+                    {
+                      "dayOfWeek": "Monday",
+                      "closeTime": "19:00:00",
+                      "openTime": "07:00:00"
+                    },
+                    {
+                      "dayOfWeek": "Tuesday",
+                      "closeTime": "19:00:00",
+                      "openTime": "07:00:00"
+                    },
+                    {
+                      "dayOfWeek": "Wednesday",
+                      "closeTime": "19:00:00",
+                      "openTime": "07:00:00"
+                    },
+                    {
+                      "dayOfWeek": "Thursday",
+                      "closeTime": "19:00:00",
+                      "openTime": "07:00:00"
+                    },
+                    {
+                      "dayOfWeek": "Friday",
+                      "closeTime": "19:00:00",
+                      "openTime": "07:00:00"
+                    },
+                    {
+                      "dayOfWeek": "Saturday",
+                      "closeTime": "16:00:00",
+                      "openTime": "08:00:00"
+                    }
+                  ],
+                  "licenseInfo": [
+                    {
+                      "number": "019030639",
+                      "action": "false",
+                      "state": "IL",
+                      "type": "LICENSED DENTIST",
+                      "status": "ACTIVE"
+                    },
+                    {
+                      "number": "060642",
+                      "action": "false",
+                      "state": "NY",
+                      "type": "DENTISTRY",
+                      "status": "ACTIVE"
+                    }
+                  ],
+                  "brighterOverallScore": {
+                    "score": "7.3"
+                  },
+                  "brighterAffordabilityScore": {
+                    "score": "4.1",
+                    "description": "Average Prices"
+                  },
+                  "brighterProfessionalHistoryScore": {
+                    "score": "9.7",
+                    "description": "9 years"
+                  },
+                  "brighterPatientExperienceScore": {
+                    "score": "9.0",
+                    "description": "233 Reviews"
+                  },
+                  "providerExperienceStartDate": "2016-05-27"
+                },
+                "brighterScore": {
+                  "patientExperienceScoreDesc": "233 Reviews"
+                },
+                "pharmacy90DayCoverageIndicator": false,
+                "weekendOpenIndicator": "Y",
+                "reportInaccuraciesMessageCode": "NYD0001",
+                "acceptingNewPatientCode": "Y",
+                "hvpdIndicator": "N",
+                "formattedAddressDetails": "142 8th Ave, New York, NY, 10011",
+                "formattedAddressResults": "142 8th Ave New York, NY 10011",
+                "adaAccessibleIndicator": "Y",
+                "networkName": "ADVANTAGE",
+                "networkTierCode": "1",
+                "ngdDetails": [
+                  {
+                    "providerDentalOfficeID": "700127",
+                    "providerDentalOfficeName": "Tend Dental",
+                    "allowNgdSelectionForCurrentCustomers": false,
+                    "acceptingNewPatientIndicator": "Y",
+                    "allowNgdSelectionIndicator": false
+                  }
+                ],
+                "allowNgdSelectionIndicator": false,
+                "participatingProducts": []
+              }
+            ],
+            "specialties": [
+              {
+                "code": "OR",
+                "description": "Orthodontics",
+                "boardCertificationFlag": "N"
+              }
+            ],
+            "geoCodesAvailableIndicator": true,
+            "genderCode": "M",
+            "yearsOfExperience": "10"
+          }
+        ],
+        "sortTypes": [
+          {
+            "code": "HDS14",
+            "description": "Best Match",
+            "sortOrder": "ASC"
+          },
+          {
+            "code": "HDS01",
+            "description": "Distance",
+            "sortOrder": "ASC"
+          },
+          {
+            "code": "HDS15",
+            "description": "A - Z (Last Name/Office)",
+            "sortOrder": "ASC"
+          },
+          {
+            "code": "HDS12",
+            "description": "Z - A (Last Name/Office)",
+            "sortOrder": "DESC"
+          }
+        ],
+        "directoryUpdateDate": "02/11/2026",
+        "inpatientProcedureIndicator": false,
+        "contextMessages": [],
+        "alertCodes": [
+          "ALT0006",
+          "ALT0021"
+        ],
+        "disclaimerCodes": [
+          "HRG05HDD0006",
+          "HRG05HDD0057",
+          "HRG05HDD0064",
+          "HRG05HDD0065"
+        ]
+      }
+    ],
+    "searchCriteria": {
+      "suppressResponseCode": false,
+      "apiSource": "public-provider-lambda",
+      "providerGroupCodes": "D",
+      "city": "New York",
+      "stateCode": "NY",
+      "zipCode": "10007",
+      "searchLocation": "New York, NY 10007",
+      "latitude": "40.714",
+      "longitude": "-74.009",
+      "specialtyCode": "OR",
+      "searchTerm": "Orthodontist",
+      "dentalNetworkCode": "PA113",
+      "dentalProductCode": "DPPO",
+      "categoryId": "15855",
+      "resultTitle": "Orthodontist"
+    }
+  },
+  "metadata": {
+    "outcome": {
+      "status": 200,
+      "type": "OK",
+      "code": 0,
+      "message": "Successful"
+    },
+    "serviceReferenceId": "08ce397f-62ea-4515-8ae4-0e21eb67206b"
+  }
+}

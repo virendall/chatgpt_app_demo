@@ -33,6 +33,7 @@ export interface ListItem {
     amount?: string;
     yourCost?: string;
     provider?: string;
+    imageUrl?: string;
 }
 
 // Action button/chip
@@ -73,6 +74,7 @@ export interface JourneyData {
 export const JOURNEY_IDS = {
     PLAN_BENEFITS: 'plan-benefits',
     FIND_DOCTOR: 'find-doctor',
+    DOCTOR_SEARCH: 'doctor-search',
     CLAIMS: 'claims',
     PRESCRIPTIONS: 'prescriptions',
 } as const;
